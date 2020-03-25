@@ -1,9 +1,15 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>空き状況・ご予約｜整体サロン</title>
-</head>
+<html lang="ja">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+ 
+        <title>空き状況・ご予約｜整体サロン</title>
+    </head>
 <body>
 <div class="wrapper"></div>
     <!--ヘッダー-->
@@ -16,8 +22,8 @@
                 <li><a href="access.html">アクセス</a></li>
                 <li><a href="contact.html">お問い合わせ</a></li>
                 <li><a href="reserve.html">空き状況・ご予約</a></li>
-                <li><a href="login.html">ログイン</a></li>
-                <li><a href="register.html">会員登録（無料）</a></li>
+                <li><a href="sigin.html">ログイン</a></li>
+                <li><a href="signup.html">会員登録（無料）</a></li>
 			</ul>
 		</nav>
     </header>
@@ -25,17 +31,23 @@
     <!--メイン-->
 	<main>
         <h2>ご希望の来店日時を選択してください</h2>
-            <ul>
-                <li><span>サロンの空き状況</span></li>
-                <li><a href="staffSchedule.html">スタッフ別の空き状況</a></li>
-            </ul>
-		
+            <div class="container mt-5">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item"><a href="reserve.html" class="nav-link active">サロンの空き状況</a></li>
+                    <li class="nav-item"><a href="staffSchedule.html" class="nav-link">スタッフ別の空き状況</a></li>
+                </ul>
+            </div>
 	</main>
 	<!--メインここまで-->
 	<!--フッター-->
 	<footer class="footer">
 		<p>&copy:Copyright Chiropractic Salon. All rights reserved.</p>
 	</footer>
-	<!--フッターここまで-->
+    <!--フッターここまで-->
+    <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
