@@ -7,9 +7,11 @@ if (isset($_POST['signin'])) {
     $password = $_POST['password']
     try {
         $db = new PDO('mysql:host=localhost;dbname=sample' , '', '');
-        $sql = 'select count(*) from users where userid=? and password=?';
+        $sql = 'select count(*) from users where userid=:userid and password=:password';
         $stmt = $db->prepare($sql);
-        $stmt->execute(array($userid, $password));
+        $stmt->bindValue(':userid',$userid);
+        $stmt->bindValue(':password',$password);
+        $stmt->execute();
         $result = $stmt->fetch();
         $stmt = null;
         $db = null;
