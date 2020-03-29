@@ -2,7 +2,7 @@
 
 $err_msg = "";
 
-if (isset($_POST['signin'])) {
+if (isset($_POST['login'])) {
     $userid = $_POST['userid']
     $password = $_POST['password']
     try {
