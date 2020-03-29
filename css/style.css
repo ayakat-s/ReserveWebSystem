@@ -2,10 +2,25 @@
 
 /* すべてのWebページに適用される　*/
 
+    table th {/*table内のthに対して*/
+    padding: 20px;/*上下左右10pxずつ*/
+    }
+  
+    table td {/*table内のtdに対して*/
+    padding: 30px 50px;/*上下3pxで左右10px*/
+    }
+    
+    table {
+    text-align: center;
+    }
+    th {
+    color: #FF9800;/*文字色*/
+    background: #fff5e5;/*背景色*/	
+    }
 
 /* 個別のスタイル */
 /* header.html */
-nav{
+    nav{
     text-align: center;
     }
     nav ul{
@@ -33,3 +48,5 @@ nav{
     color:#F7CB4D;
     border-bottom:2px solid #F7CB4D;
     }
+
+    
