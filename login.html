@@ -26,23 +26,17 @@
     <main>
         <h2>ログイン</h2>
             <form action="login.php" method="post">
-                <table>
-                    <tbody>
-                        <tr>
-                            <th>登録ID（メールアドレス）</th>
-                            <td>
-                                <input id="userid" type="text" name="userid" value="">
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>パスワード</th>
-                            <td>
-                                <input id="password" type="password" name="password" value="">
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-                <input type="submit" id="login" name="login" value="ログイン" class="">
+                <div>
+                    <label>登録ID（メールアドレス）</label>
+                    <input id="userid" type="text" name="userid" value="">
+                </div>
+                <div>
+                    <label>パスワード</label>
+                    <input id="password" type="password" name="password" value="">
+                </div>
+                <div>
+                    <input type="submit" id="login" name="login" value="ログイン" class="">
+                </div>
                 <p>
                     <a href="resetPassword.html">パスワードをお忘れですか？</a>
                 </p>
