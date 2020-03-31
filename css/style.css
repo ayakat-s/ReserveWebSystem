@@ -37,16 +37,16 @@ p {
 	line-height: 1.6;
 }
 a:link {
-	color: #CBA6C3;
+	color: #353866;
 }
 a:visited {
-	color: #CBA6C3;
+	color: #353866;
 }
 a:hover {
-	color: #CBA6C3;
+	color: #353866;
 }
 a:active {
-	color: #CBA6C3;
+	color: #353866;
 }
 
 table th {/*table内のthに対して*/
@@ -92,8 +92,8 @@ nav a.current{
     border-bottom:2px solid #F8FAFF;
 }
 nav a:hover{
-    color:#AAABD3;
-    border-bottom:2px solid #AAABD3;
+    color:#CBA6C3;
+    border-bottom:2px solid #CBA6C3;
 }
 
 /* menu.html*/
