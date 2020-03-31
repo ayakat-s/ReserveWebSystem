@@ -10,16 +10,16 @@ html*{
 }
 body {
 	margin: 0 0 0 0;
-	background-color: #fdfddf;
+	background-color: #F8FAFF;
 }
 .wrapper {
 	margin: 0 auto 0 auto;
 	max-width: 960px;
 }
 h2 {
-	color: #3f5170;
+	color: #353866;
 	font-size: 22px;
-	border-bottom: 3px dotted #3f5170;
+	border-bottom: 3px dotted #AAABD3;
 	margin-top: 20px;
 	margin-right: 0px;
 	margin-bottom: 20px;
@@ -30,23 +30,23 @@ h2 {
 	padding-left: 5px;
 }
 h3 {
-	color: #3f5170;
+	color: #353866;
 	font-size: 18px;
 }
 p {
 	line-height: 1.6;
 }
 a:link {
-	color: #d25833;
+	color: #CBA6C3;
 }
 a:visited {
-	color: #d25833;
+	color: #CBA6C3;
 }
 a:hover {
-	color: #e3937a;
+	color: #CBA6C3;
 }
 a:active {
-	color: #dff6a3b;
+	color: #CBA6C3;
 }
 
 table th {/*table内のthに対して*/
@@ -61,8 +61,8 @@ table {
     text-align: center;
 }
 th {
-    color: #FF9800;/*文字色*/
-    background: #fff5e5;/*背景色*/	
+    color: #353866;/*文字色*/
+    background: #F8FAFF;/*背景色*/	
 }
 
 /* 個別のスタイル */
@@ -88,12 +88,12 @@ nav a{
     color: #333;
 }
 nav a.current{
-    color: #00B0F0;
-    border-bottom:2px solid #00B0F0;
+    color: #F8FAFF;
+    border-bottom:2px solid #F8FAFF;
 }
 nav a:hover{
-    color:#F7CB4D;
-    border-bottom:2px solid #F7CB4D;
+    color:#AAABD3;
+    border-bottom:2px solid #AAABD3;
 }
 
 /* menu.html*/
