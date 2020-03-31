@@ -1,52 +1,113 @@
 @charset "UTF-8";
 
-/* すべてのWebページに適用される　*/
+/* すべてのWebページに適用　*/
 
-    table th {/*table内のthに対して*/
+html {
+	font-family: sans-serif;
+}
+html*{
+	bodx-sizing: border-box;
+}
+body {
+	margin: 0 0 0 0;
+	background-color: #fdfddf;
+}
+.wrapper {
+	margin: 0 auto 0 auto;
+	max-width: 960px;
+}
+h2 {
+	color: #3f5170;
+	font-size: 22px;
+	border-bottom: 3px dotted #3f5170;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+h3 {
+	color: #3f5170;
+	font-size: 18px;
+}
+p {
+	line-height: 1.6;
+}
+a:link {
+	color: #d25833;
+}
+a:visited {
+	color: #d25833;
+}
+a:hover {
+	color: #e3937a;
+}
+a:active {
+	color: #dff6a3b;
+}
+
+table th {/*table内のthに対して*/
     padding: 20px;/*上下左右10pxずつ*/
-    }
+}
   
-    table td {/*table内のtdに対して*/
+table td {/*table内のtdに対して*/
     padding: 30px 50px;/*上下3pxで左右10px*/
-    }
+}
     
-    table {
+table {
     text-align: center;
-    }
-    th {
+}
+th {
     color: #FF9800;/*文字色*/
     background: #fff5e5;/*背景色*/	
-    }
+}
 
 /* 個別のスタイル */
 /* header.html */
-    nav{
+nav{
     text-align: center;
-    }
-    nav ul{
+}
+nav ul{
     margin: 0 ;
     padding: 0 ;
-    }
-    nav li{
+}
+nav li{
     list-style: none;
     display: inline-block;
     width: 20%;
     min-width: 90px;
-    }
-    nav li:not(:last-child){
+}
+nav li:not(:last-child){
     border-right:2px solid #ddd;
-    }
-    nav a{
-    text-decoration: none;
+}
+nav a{
+        text-decoration: none;
     color: #333;
-    }
-    nav a.current{
+}
+nav a.current{
     color: #00B0F0;
     border-bottom:2px solid #00B0F0;
-    }
-    nav a:hover{
+}
+nav a:hover{
     color:#F7CB4D;
     border-bottom:2px solid #F7CB4D;
-    }
+}
+
+/* menu.html*/
+.menu-item {
+    display: flex;
+    border-bottom: 1px dashed #bec2c7;
+    padding: 20px 8px;
+}
+.menu-photo {
+    margin-right: 16px;
+    flex: 1 1 1;
+}
+.menu-text {
+    flex: 0 0 auto;
+}
 
     
