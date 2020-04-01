@@ -121,42 +121,31 @@
     transform: translateY(-4px);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 3px 10px 0 rgba(0,0,0,0.12), 0 4px 7px -2px rgba(0,0,0,0.2);
 }
-
-nav{
+.nav {
     text-align: center;
 }
-
-nav ul{
+.nav ul {
     margin: 0 ;
     padding: 0 ;
-    
 }
-
-    
-nav li{
-
+.nav li {
     list-style: none;
     display: inline-block;
     width: 20%;
     min-width: 90px;
 }
-
-nav li:not(:last-child){
+.nav li:not(:last-child) {
     border-right:2px solid #ddd;
-    
 }
-
-nav a{
+.nav a {
     text-decoration: none;
     color: #333;
 }
-
-nav a.current{
+.nav a.current {
     color: #00B0F0;
     border-bottom:2px solid #00B0F0;
 }
-
-nav a:hover{
+.nav a:hover {
     color:#F7CB4D;
     border-bottom:2px solid #F7CB4D;
 }
