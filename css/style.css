@@ -98,8 +98,8 @@ footer {
 }
 
 .btnLogin {
+    float: right;
     position: relative;
-    display: inline-block;
     padding: .65em 4em;
     border: 2px solid #333;
     color: #333;
