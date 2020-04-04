@@ -89,20 +89,19 @@ footer {
 /* 個別のスタイル */
 /* header.html */
 .jumbotron-extend {
-    background: -moz-linear-gradient(65deg, #F13F79, #FFC778); 
-    background: -webkit-linear-gradient(65deg, #F13F79, #FFC778); 
-    background: linear-gradient(25deg, #F13F79, #FFC778); 
+    background-color: #FFF;
 }
 
 .site-name {
     margin-bottom: 40px;
     font-family: 'Playfair Display', serif;
 }
+
 .btnLogin {
     position: relative;
     display: inline-block;
     padding: .65em 4em;
-    border: 2px solid #333;
+    border: 1px solid #333;
     color: #333;
     text-decoration: none;
     text-align: center;
