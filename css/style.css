@@ -19,7 +19,7 @@ body {
 	display: grid;
   grid-template:
     "header header header" 80px
-    "left main right" auto
+    "main main main" auto
     "footer footer footer" 50px /
     300px 1fr 20%;
 }
@@ -37,7 +37,7 @@ body {
 	grid-column: 3 / 4;
 }*/
  
-.commonfooter {
+.commonFooter {
     grid-area: footer;
 }
 
