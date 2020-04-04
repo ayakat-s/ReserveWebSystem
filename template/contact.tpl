@@ -40,7 +40,7 @@
                         </div>
                         <div>
                             <label>お問い合わせ内容<span class="badge badge-danger">必須</span></label>
-                            <textarea name="content" rows="5" placeholder="　お問合せ内容を入力してください。"></textarea>
+                            <textarea name="content" rows="10" placeholder="　お問合せ内容を入力してください。"></textarea>
                         </div>
                         <div class="botton">
                             <button type="submit">確認画面へ</button>
