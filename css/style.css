@@ -71,19 +71,19 @@ p {
 }
 
 a:link {
-	color: #686767;
+	color: #F6D490;
 }
 
 a:visited {
-	color: #686767;
+	color: #F6D490;
 }
 
 a:hover {
-	color: #686767;
+	color: #F6D490;
 }
 
 a:active {
-	color: #686767;
+	color: #F6D490;
 }
 
 table th {/*table内のthに対して*/
@@ -107,18 +107,17 @@ button {
     position: relative;
     display: inline-block;
     padding: .65em 4em;
-    background-color: #FFF;
-    border: 1px solid #F2BC51;
+    background-color: #F2BC51;
     color: #333;
     text-decoration: none;
     text-align: center;
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
-  }
+}
 
   button:hover {
     background: #F6D490;
-  }
+}
 
 /* 個別のスタイル */
 /* header.html */
@@ -199,8 +198,8 @@ nav a{
     color: #333;
 }
 nav a.current{
-    color: #00B0F0;
-    border-bottom:2px solid #00B0F0;
+    color: #F6D490;
+    border-bottom:2px solid #F6D490;
 }
 nav a:hover{
     position:relative;
@@ -269,5 +268,5 @@ textarea {
     vertical-align: top;
   
     /* テキスト入力に十分な領域を与える */
-    height: 5em;
+    height: 10em;
 }
