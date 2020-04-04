@@ -20,8 +20,9 @@ body {
     grid-template-rows: auto auto auto;
     grid-template-columns: 1fr 700px 1fr;
     grid-template-areas: "header header header"
-                       "left main right"
-                       "footer footer footer";
+                         "left main right"
+                         "footer footer footer";
+    gap: 20px 5px;
 }
 
 #commonHeader {
