@@ -1,3 +1,5 @@
 <?php
-header('Location: index.html');
-exit;
+require '../libs/smarty.php';
+$smarty = new customSmarty();
+$smarty->display("index.tpl");
+
