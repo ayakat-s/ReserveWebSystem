@@ -26,7 +26,9 @@ body {
 }
 
 #commonHeader {
-	grid-area: header;
+    grid-area: header;
+    background-color: #F7F6F4;
+    color: #333;
 }
  
 .main {
@@ -99,11 +101,6 @@ table {
 th {
     color: #686767;/*文字色*/
     background: #FFF;/*背景色*/	
-}
-
-footer {
-    background-color: #F7F6F4;
-    color: #333;
 }
 
 /* 個別のスタイル */
