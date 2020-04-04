@@ -127,7 +127,7 @@ button:hover {
     float: right;
     text-align: center;
     background-color: #F2BC51;
-    text-decoration-color: #FFF;
+    color: #FFF;
     width: 160px;
     padding: 0.8em;
     border-radius: 4px;
