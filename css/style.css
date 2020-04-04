@@ -39,7 +39,7 @@ body {
 }*/
  
 #commonFooter {
-    /*grid-area: footer;*/
+    grid-area: footer;
     background-color: #F7F6F4;
     color: #333;
 }
