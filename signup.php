@@ -4,7 +4,6 @@ require 'smarty.php';
 $smarty = new customSmarty();
 $smarty->display("signup.tpl");
 
-
 if (isset($_POST['signup'])) {
     $userid = $_POST['userid']
     $user_surname = $_POST['user_surname']
