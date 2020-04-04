@@ -24,7 +24,7 @@
         <div class="container">
             <header id="commonHeader"></header>
             <!--メイン-->
-            <main>
+            <main class="main">
                 <h2>アカウント登録</h2>
                     <form action="signup.php" method="post">
                         <div>

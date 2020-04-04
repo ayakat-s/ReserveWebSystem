@@ -24,7 +24,7 @@
         <div class="container">
             <header id="commonHeader"></header>
             <!--メイン-->
-            <main>
+            <main class="main">
                 <h2>お問い合わせ</h2>
                 <div>
                     <form action="confirm.php" method="post" name="form" onsubmit="return validate()">

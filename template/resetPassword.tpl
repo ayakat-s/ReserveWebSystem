@@ -24,7 +24,7 @@
         <div class="container">
             <header id="commonHeader"></header>
             <!--メイン-->
-            <main>
+            <main class="main">
                 <form>
                     <h2>パスワードの再設定</h2>
                     <div>

@@ -24,11 +24,11 @@ body {
     300px 1fr 20%;
 }
 
-header#commonHeader {
+.commonHeader {
 	grid-area: header;
 }
  
-main {
+.main {
     grid-area: main;
 }
  
@@ -37,8 +37,8 @@ main {
 	grid-column: 3 / 4;
 }*/
  
-footer#commonfooter {
-    grid-area: main;
+.commonfooter {
+    grid-area: footer;
 }
 
 h1 {

@@ -24,7 +24,7 @@
         <div class="container">
             <header id="commonHeader"></header>
             <!--メイン-->
-            <main>
+            <main class="main">
                 <h2>Information</h2>
                 <div class="">
                     <dl class="info">

@@ -22,8 +22,10 @@
     </head>
     <body>
         <div class="container">
-            <header id="commonHeader"></header>
-                <img class="img-fluid rounded" src="https://picsum.photos/800/600">
+            <main  class="main">
+                <header id="commonHeader"></header>
+                    <img class="img-fluid rounded" src="https://picsum.photos/800/600">
+            </main>
             <footer id="commonFooter"></footer>
         </div>
     </body>

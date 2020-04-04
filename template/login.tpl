@@ -23,7 +23,7 @@
 <body>
     <div class="container">
         <header id="commonHeader"></header>
-        <main>
+        <main class="main">
             <h2>ログイン</h2>
                 <form action="login.php" method="post">
                     <div>

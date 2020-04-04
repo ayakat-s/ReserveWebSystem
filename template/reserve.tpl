@@ -24,7 +24,7 @@
         <div class="container">
             <header id="commonHeader"></header>
             <!--メイン-->
-            <main>
+            <main class="main">
                 <h2>ご希望の来店日時を選択してください</h2>
                     <div class="container mt-5">
                         <ul class="nav nav-tabs">
