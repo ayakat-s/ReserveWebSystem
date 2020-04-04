@@ -1,5 +1,9 @@
 <?php
 
+require 'smarty.php';
+$smarty = new customSmarty();
+$smarty->display("login.tpl");
+
 $err_msg = "";
 
 if (isset($_POST['login'])) {
