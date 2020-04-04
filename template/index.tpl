@@ -22,7 +22,7 @@
     </head>
     <body>
         <div class="container">
-            <main  class="main">
+            <main class="main">
                 <header id="commonHeader"></header>
                     <img class="img-fluid rounded" src="https://picsum.photos/800/600">
             </main>
