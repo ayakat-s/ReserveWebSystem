@@ -70,7 +70,7 @@ p {
 	line-height: 1.6;
 }
 
-a:link {
+/*a:link {
 	color: #686767;
 }
 
@@ -84,7 +84,7 @@ a:hover {
 
 a:active {
 	color: #686767;
-}
+}*/
 
 table th {/*table内のthに対して*/
     padding: 20px;/*上下左右10pxずつ*/
@@ -105,7 +105,7 @@ th {
 
 button {
     position: relative;
-    display: inline-block;
+    display: center;
     padding: .65em 4em;
     border: 1px solid #FFF;
     background-color: #F2BC51;
