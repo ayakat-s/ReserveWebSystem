@@ -70,30 +70,22 @@ p {
 	line-height: 1.6;
 }
 
-/*a:link {
-	color: #686767;
+a:link {
+	color: #333;
 }
 
 a:visited {
-	color: #686767;
+	color: #333;
 }
 
 a:hover {
-	color: #686767;
+	color: #333;
 }
 
 a:active {
-	color: #686767;
-}*/
-
-table th {/*table内のthに対して*/
-    padding: 20px;/*上下左右10pxずつ*/
+	color: #333;
 }
   
-table td {/*table内のtdに対して*/
-    padding: 30px 50px;/*上下3pxで左右10px*/
-}
-    
 table {
     text-align: center;
 }
