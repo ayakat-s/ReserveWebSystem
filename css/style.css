@@ -27,8 +27,6 @@ body {
 
 #commonHeader {
     grid-area: header;
-    background-color: #F7F6F4;
-    color: #333;
 }
  
 .main {
@@ -42,6 +40,8 @@ body {
  
 #commonFooter {
     grid-area: footer;
+    background-color: #F7F6F4;
+    color: #333;
 }
 
 h1 {
