@@ -17,7 +17,7 @@
                     $("#commonFooter").load("template/footer.html");
                 });
             </script>
-        <title>会員登録｜整体サロン</title>
+        <title>会員登録｜整体サロン Natural</title>
         <link rel="stylesheet" href="../css/style.css">
     </head>
     <body>

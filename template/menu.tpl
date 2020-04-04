@@ -17,7 +17,7 @@
                 $("#commonFooter").load("template/footer.html");
             });
         </script>
-        <title>メニュー・料金｜整体サロン</title>
+        <title>メニュー・料金｜整体サロン Natural</title>
         <link rel="stylesheet" href="../css/style.css">
     </head>
     <body>
@@ -60,7 +60,7 @@
                 </div>
             </div>
             <h2>施術料金</h2>
-            <table border="1">
+            <table class="price">
                 <tr>
                     <th>施術メニュー</th>
                     <th>時間</th>

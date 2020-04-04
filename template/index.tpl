@@ -17,13 +17,13 @@
                 $("#commonFooter").load("template/footer.html");
             });
         </script>
-        <title>Welcome to 整体サロン</title>
+        <title>Welcome to 整体サロン Natural</title>
         <link rel="stylesheet" href="../css/style.css">
     </head>
-<body>
-    <div class="wrapper"></div>
-    <header id="commonHeader"></header>
-        <img class="img-fluid rounded" src="https://picsum.photos/800/600">
-    <footer id="commonFooter"></footer>
-</body>
+    <body>
+        <div class="wrapper"></div>
+        <header id="commonHeader"></header>
+            <img class="img-fluid rounded" src="https://picsum.photos/800/600">
+        <footer id="commonFooter"></footer>
+    </body>
 </html>

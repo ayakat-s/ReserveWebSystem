@@ -17,7 +17,7 @@
                 $("#commonFooter").load("template/footer.html");
             });
         </script>
-        <title>空き状況・ご予約｜整体サロン</title>
+        <title>空き状況・ご予約｜整体サロン Natural</title>
         <link rel="stylesheet" href="../css/style.css">
     </head>
     <body>

@@ -17,7 +17,7 @@
                 $("#commonFooter").load("template/footer.html");
             });
         </script>
-        <title>お問い合わせ｜整体サロン</title>
+        <title>お問い合わせ｜整体サロン Natural</title>
         <link rel="stylesheet" href="../css/style.css">
     </head>
     <body>

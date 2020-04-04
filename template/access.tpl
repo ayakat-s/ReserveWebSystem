@@ -17,7 +17,7 @@
                 $("#commonFooter").load("template/footer.html");
             });
         </script>
-        <title>アクセス｜整体サロン</title>
+        <title>アクセス｜整体サロン Natural</title>
         <link rel="stylesheet" href="../css/style.css">
     </head>
 <body>
@@ -35,14 +35,14 @@
             </dl>
             <dl class="info">
                 <dt>定休日</dt>
-                <dd>年中無休</dd>
+                <dd>毎週月曜日</dd>
             </dl>
             <dl class="info">
-                <dt>住所</dt>
+                <dt>住所/電話番号</dt>
                 <dd>
                     〒000-0000<br>
                     東京都港区南青山0-00-0 南青山ビルディング3F<br>
-                    TEL：03-1234-0000
+                    TEL：03-1234-5678
                 </dd>
             </dl>
             <dl class="info">
