@@ -71,19 +71,19 @@ p {
 }
 
 a:link {
-	color: #F6D490;
+	color: #686767;
 }
 
 a:visited {
-	color: #F6D490;
+	color: #686767;
 }
 
 a:hover {
-	color: #F6D490;
+	color: #686767;
 }
 
 a:active {
-	color: #F6D490;
+	color: #686767;
 }
 
 table th {/*table内のthに対して*/
@@ -107,6 +107,7 @@ button {
     position: relative;
     display: inline-block;
     padding: .65em 4em;
+    border: 1px solid #FFF;
     background-color: #F2BC51;
     color: #333;
     text-decoration: none;
@@ -115,7 +116,7 @@ button {
     transition: .3s ease-in-out;
 }
 
-  button:hover {
+button:hover {
     background: #F6D490;
 }
 
