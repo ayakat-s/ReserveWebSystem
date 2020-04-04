@@ -17,11 +17,12 @@ body {
 
 .container {
     display: grid;
-    grid-template:
-    "header header header" 80px
-    "left main right" auto
-    "footer footer footer" 50px /
-    300px 1fr 20%;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr 700px 1fr;
+    grid-template-areas: "header header header"
+                       "left main right"
+                       "footer footer footer";
+}
 
 #commonHeader {
 	grid-area: header;
