@@ -1,4 +1,9 @@
 <?php 
+
+    require 'smarty.php';
+    $smarty = new customSmarty();
+    $smarty->display("confirm.tpl");
+
     // フォームのボタンが押されたら
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // フォームから送信されたデータを各変数に格納

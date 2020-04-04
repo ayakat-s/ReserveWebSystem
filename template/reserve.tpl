@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
     <head>
         <!-- Required meta tags -->
         <meta charset="UTF-8">
@@ -17,38 +17,23 @@
                 $("#commonFooter").load("template/footer.html");
             });
         </script>
-        <title>ログイン｜整体サロン</title>
-        <link rel="stylesheet" href="css/style.css">
+        <title>空き状況・ご予約｜整体サロン</title>
+        <link rel="stylesheet" href="../css/style.css">
     </head>
-<body>
-    <div class="wrapper"></div>
-    <header id="commonHeader"></header>
-    <!--メイン-->
-	<main>
-        <form>
-            <h2>パスワードの再設定</h2>
-            <div>
-                <table>
-                    <tbody>
-                        <tr>
-                            <th>登録ID（メールアドレス）：</th>
-                            <td><input id="userid" type="text" name="userid"></td>
-                        </tr>
-                        <tr> 
-                            <th>お名前：</th>
-                            <td>姓<input id="user_surname" type="text" name="user_surname"></td>
-                            <td>名<input id="user_givenname" type="text" name="user_givenname"></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div>
-                <a href="signin.html">戻る</a>
-                <button type="button" id="sbmbtn" class="">リセットする</button>
-            </div>
-        </form>
-	</main>
-	<!--メインここまで-->
-	<footer id="commonFooter"></footer>
-</body>
+    <body>
+        <div class="wrapper"></div>
+        <header id="commonHeader"></header>
+        <!--メイン-->
+        <main>
+            <h2>ご希望の来店日時を選択してください</h2>
+                <div class="container mt-5">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item"><a href="reserve.php" class="nav-link active">サロンの空き状況</a></li>
+                        <li class="nav-item"><a href="staffSchedule.php" class="nav-link">スタッフ別の空き状況</a></li>
+                    </ul>
+                </div>
+        </main>
+        <!--メインここまで-->
+        <footer id="commonFooter"></footer>   
+    </body>
 </html>
