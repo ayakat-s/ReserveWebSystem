@@ -40,8 +40,9 @@
             <dl class="info">
                 <dt>住所</dt>
                 <dd>
-                    〒XXX-XXXX<br>
-                    東京都港区南青山X-XX-X XXXXビル3F<br>
+                    〒000-0000<br>
+                    東京都港区南青山0-00-0 南青山ビルディング3F<br>
+                    TEL：03-1234-0000
                 </dd>
             </dl>
             <dl class="info">

@@ -11,7 +11,7 @@ html {
 
 body {
     margin: 0 0 0 0;
-	background-color: rgb(252, 250, 248);
+	background-color: #FFF;
 }
 
 .wrapper {
@@ -20,9 +20,9 @@ body {
 }
 
 h2 {
-	color: #353866;
+	color: #686767;
 	font-size: 22px;
-	border-bottom: 3px dotted #AAABD3;
+	border-bottom: 3px dotted #D1CAC8;
 	margin-top: 20px;
 	margin-right: 0px;
 	margin-bottom: 20px;
@@ -34,7 +34,7 @@ h2 {
 }
 
 h3 {
-	color: #353866;
+	color: #686767;
 	font-size: 18px;
 }
 
@@ -43,19 +43,19 @@ p {
 }
 
 a:link {
-	color: #353866;
+	color: #686767;
 }
 
 a:visited {
-	color: #353866;
+	color: #686767;
 }
 
 a:hover {
-	color: #353866;
+	color: #686767;
 }
 
 a:active {
-	color: #353866;
+	color: #686767;
 }
 
 table th {/*table内のthに対して*/
@@ -71,8 +71,12 @@ table {
 }
 
 th {
-    color: #353866;/*文字色*/
-    background: #FFF4E0;/*背景色*/	
+    color: #686767;/*文字色*/
+    background: #FFF;/*背景色*/	
+}
+
+footer {
+    background-color:#F6F5F3
 }
 
 /* 個別のスタイル */
@@ -90,7 +94,7 @@ th {
 .btnLogin {
     float: right;
     text-align: center;
-    background-color: #E85A70;
+    background-color: #F2BC51;
     color: #FFF;
     width: 160px;
     padding: 0.8em;
@@ -111,7 +115,7 @@ th {
 .btnReserve {
     float: right;
     text-align: center;
-    background-color: #E85A70;
+    background-color: #F2BC51;
     color: #FFF;
     width: 160px;
     padding: 0.8em;
@@ -155,14 +159,14 @@ nav a.current{
     border-bottom:2px solid #00B0F0;
 }
 nav a:hover{
-    color:#F7CB4D;
-    border-bottom:2px solid #F7CB4D;
+    color:#F2BC51;
+    border-bottom:2px solid #F2BC51;
 }
 
 /* menu.html*/
 .menuItem {
     display: flex;
-    border-bottom: 1px dashed #bec2c7;
+    border-bottom: 1px dashed #D1CAC8;
     padding: 20px 8px;
 }
 .menuPhoto {
@@ -206,7 +210,7 @@ input, textarea {
     box-sizing: border-box;
   
     /* テキストフィールドのボーダーの外見を同一にする */
-    border: 1px solid #999;
+    border: 1px solid #D1CAC8;
 }
   
 input:focus, textarea:focus {
