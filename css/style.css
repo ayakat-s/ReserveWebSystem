@@ -101,15 +101,14 @@ footer {
     position: relative;
     display: inline-block;
     padding: .65em 4em;
-    border: 1px solid #333;
+    border: 2px solid #333;
     color: #333;
     text-decoration: none;
     text-align: center;
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
-}
-
-.btnLogin::after {
+  }
+  .btnLogin::after {
     position: absolute;
     top: 5px;
     left: 5px;
@@ -120,18 +119,16 @@ footer {
     background-color: #F2BC51;
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
-}
-      
-.btnLogin:hover {
+  }
+  .btnLogin:hover {
     color: #fff;
-}
-      
-.btnLogin:hover::after {
+  }
+  .btnLogin:hover::after {
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-}
+  }
 
 .btnReserve {
     float: right;
