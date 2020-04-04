@@ -17,18 +17,19 @@ body {
 
 .container {
 	display: grid;
-	grid-template-rows: 80px auto 50px;
-	grid-template-columns: 300px 1fr 20%;
+  grid-template:
+    "header header header" 80px
+    "left main right" auto
+    "footer footer footer" 50px /
+    300px 1fr 20%;
 }
 
 header#commonHeader {
-	grid-row: 1 / 2;
-	grid-column: 1 / 4;
+	grid-area: header;
 }
  
 main {
-	grid-row: 2 / 3;
-	grid-column: 2 / 3;
+    grid-area: main;
 }
  
 /* .right {
@@ -37,8 +38,7 @@ main {
 }*/
  
 footer#commonfooter {
-	grid-row: 3 / 4;
-    grid-column: 1 / 4;
+    grid-area: main;
 }
 
 h1 {
