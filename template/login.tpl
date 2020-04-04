@@ -21,29 +21,30 @@
         <link rel="stylesheet" href="../css/style.css">
     </head>
 <body>
-    <div class="wrapper"></div>
-    <header id="commonHeader"></header>
-    <main>
-        <h2>ログイン</h2>
-            <form action="login.php" method="post">
-                <div>
-                    <label>登録ID（メールアドレス）</label>
-                    <input id="userid" type="text" name="userid" value="">
-                </div>
-                <div>
-                    <label>パスワード</label>
-                    <input id="password" type="password" name="password" value="">
-                </div>
-                <div>
-                    <input type="submit" id="login" name="login" value="ログイン" class="">
-                </div>
-                <p>
-                    <a href="resetPassword.php">パスワードをお忘れですか？</a>
-                </p>
-        </form>
-        <a href="index.php">戻る</a>
-    </main>
-    <!--メインここまで-->
-    <footer id="commonFooter"></footer>
+    <div class="container">
+        <header id="commonHeader"></header>
+        <main>
+            <h2>ログイン</h2>
+                <form action="login.php" method="post">
+                    <div>
+                        <label>登録ID（メールアドレス）</label>
+                        <input id="userid" type="text" name="userid" value="">
+                    </div>
+                    <div>
+                        <label>パスワード</label>
+                        <input id="password" type="password" name="password" value="">
+                    </div>
+                    <div>
+                        <input type="submit" id="login" name="login" value="ログイン" class="">
+                    </div>
+                    <p>
+                        <a href="resetPassword.php">パスワードをお忘れですか？</a>
+                    </p>
+            </form>
+            <a href="index.php">戻る</a>
+        </main>
+        <!--メインここまで-->
+        <footer id="commonFooter"></footer>
+    </div>
 </body>
 </html>

@@ -21,9 +21,10 @@
         <link rel="stylesheet" href="../css/style.css">
     </head>
     <body>
-        <div class="wrapper"></div>
-        <header id="commonHeader"></header>
-            <img class="img-fluid rounded" src="https://picsum.photos/800/600">
-        <footer id="commonFooter"></footer>
+        <div class="container">
+            <header id="commonHeader"></header>
+                <img class="img-fluid rounded" src="https://picsum.photos/800/600">
+            <footer id="commonFooter"></footer>
+        </div>
     </body>
 </html>

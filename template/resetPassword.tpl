@@ -21,35 +21,36 @@
         <link rel="stylesheet" href="../css/style.css">
     </head>
     <body>
-        <div class="wrapper"></div>
-        <header id="commonHeader"></header>
-        <!--メイン-->
-        <main>
-            <form>
-                <h2>パスワードの再設定</h2>
-                <div>
-                    <table>
-                        <tbody>
-                            <tr>
-                                <th>登録ID（メールアドレス）：</th>
-                                <td><input id="userid" type="text" name="userid"></td>
-                            </tr>
-                            <tr> 
-                                <th>お名前：</th>
-                                <td>姓<input id="user_surname" type="text" name="user_surname"></td>
-                                <td>名<input id="user_givenname" type="text" name="user_givenname"></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div>
-                    <input type="submit" value="送信する">
-                    <inputn type="reset" value="リセット">
-                </div>
-            </form>
-            <a href="signin.php">戻る</a>
-        </main>
-        <!--メインここまで-->
-        <footer id="commonFooter"></footer>
+        <div class="container">
+            <header id="commonHeader"></header>
+            <!--メイン-->
+            <main>
+                <form>
+                    <h2>パスワードの再設定</h2>
+                    <div>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>登録ID（メールアドレス）：</th>
+                                    <td><input id="userid" type="text" name="userid"></td>
+                                </tr>
+                                <tr> 
+                                    <th>お名前：</th>
+                                    <td>姓<input id="user_surname" type="text" name="user_surname"></td>
+                                    <td>名<input id="user_givenname" type="text" name="user_givenname"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                        <input type="submit" value="送信する">
+                        <inputn type="reset" value="リセット">
+                    </div>
+                </form>
+                <a href="signin.php">戻る</a>
+            </main>
+            <!--メインここまで-->
+            <footer id="commonFooter"></footer>
+        </div>
     </body>
 </html>

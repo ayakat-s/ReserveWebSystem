@@ -21,32 +21,33 @@
         <link rel="stylesheet" href="../css/style.css">
     </head>
     <body>
-        <div class="wrapper"></div>
-        <header id="commonHeader"></header>
-        <!--メイン-->
-        <main>
-            <h2>アカウント登録</h2>
-                <form action="signup.php" method="post">
-                    <div>
-                        <label>登録ID（メールアドレス）<span class="badge badge-danger">必須</span></label>
-                        <input id="userid" type="text" name="userid" value="">
-                    </div>
-                    <div>
-                        <label>お名前<span class="badge badge-danger">必須</span></label>
-                            <td>姓<input id="userSurname" type="text" name="userSurname" value=""></td>
-                            <td>名<input id="userGivenname" type="text" name="userGivenname" value=""></td>
-                    </div>
-                    <div>
-                        <label>パスワード<span class="badge badge-danger">必須</span></label>
-                            <td>
-                                <input id="password" type="password" name="password" value="">
-                            </td>
+        <div class="container">
+            <header id="commonHeader"></header>
+            <!--メイン-->
+            <main>
+                <h2>アカウント登録</h2>
+                    <form action="signup.php" method="post">
+                        <div>
+                            <label>登録ID（メールアドレス）<span class="badge badge-danger">必須</span></label>
+                            <input id="userid" type="text" name="userid" value="">
                         </div>
-                    <input type="submit" id="signup" name="signup" value="登録する" class="">
-                </form>
-                <a href="index.php">戻る</a>
-        </main>
-        <!--メインここまで-->
-        <footer id="commonFooter"></footer>
+                        <div>
+                            <label>お名前<span class="badge badge-danger">必須</span></label>
+                                <td>姓<input id="userSurname" type="text" name="userSurname" value=""></td>
+                                <td>名<input id="userGivenname" type="text" name="userGivenname" value=""></td>
+                        </div>
+                        <div>
+                            <label>パスワード<span class="badge badge-danger">必須</span></label>
+                                <td>
+                                    <input id="password" type="password" name="password" value="">
+                                </td>
+                            </div>
+                        <input type="submit" id="signup" name="signup" value="登録する" class="">
+                    </form>
+                    <a href="index.php">戻る</a>
+            </main>
+            <!--メインここまで-->
+            <footer id="commonFooter"></footer>
+        </div>
     </body>
 </html>

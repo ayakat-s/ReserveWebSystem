@@ -21,75 +21,76 @@
         <link rel="stylesheet" href="../css/style.css">
     </head>
     <body>
-        <div class="wrapper"></div>
-        <header id="commonHeader"></header>
-        <!--メイン-->
-        <main>
-            <h2>メニュー</h2>
-            <div class="menuBlock">
-                <div class="menuItem">
-                    <div class="menuTtext">
-                        <h3>全身姿勢矯正コース（60分）</h3>
-                        <p>骨盤の歪み、O脚Ｘ脚、猫背、肩こりなどの症状にお悩みの方におすすめのコースです。<br>
-                            本気で身体を変えたい方におすすめです！！ <br>
-                            ※時間には歪みのチェック・カウンセリングも含みます。</p>
+        <div class="container">
+            <header id="commonHeader"></header>
+            <!--メイン-->
+            <main>
+                <h2>メニュー</h2>
+                <div class="menuBlock">
+                    <div class="menuItem">
+                        <div class="menuTtext">
+                            <h3>全身姿勢矯正コース（60分）</h3>
+                            <p>骨盤の歪み、O脚Ｘ脚、猫背、肩こりなどの症状にお悩みの方におすすめのコースです。<br>
+                                本気で身体を変えたい方におすすめです！！ <br>
+                                ※時間には歪みのチェック・カウンセリングも含みます。</p>
+                        </div>
+                        <div class="menuPhoto">
+                            <img src="images/decor-at-natural-spa.jpg" width="300" height="225" alt="">
+                        </div>
                     </div>
-                    <div class="menuPhoto">
-                        <img src="images/decor-at-natural-spa.jpg" width="300" height="225" alt="">
+                    <div class="menuItem">
+                        <div class="menuText">
+                            <h3>首肩集中コース（30分/60分）</h3>
+                            <p>時間がなく部分的に集中してやってほしい方におすすめです。 <br>
+                                ※時間には歪みのチェック・カウンセリングも含みます。</p>
+                        </div>
+                        <div class="menuPhoto">
+                            <img src="images/candles-glow-with-spa-decor.jpg" width="300" height="225" alt="">
+                        </div>
+                    </div>
+                    <div class="menuItem">
+                        <div class="menuText">
+                            <h3>美脚矯正コース（30分/60分）</h3>
+                            <p> 足の歪み、むくみにお悩みの方におすすめです。 <br>
+                                ※時間には歪みのチェック・カウンセリングも含みます。</p>
+                        </div>
+                        <div class="menuPhoto">
+                            <img src="images/a-woman-points-her-toes-while-stretching-her-legs-in-pool.jpg" width="300" height="225" alt="">
+                        </div>
                     </div>
                 </div>
-                <div class="menuItem">
-                    <div class="menuText">
-                        <h3>首肩集中コース（30分/60分）</h3>
-                        <p>時間がなく部分的に集中してやってほしい方におすすめです。 <br>
-                            ※時間には歪みのチェック・カウンセリングも含みます。</p>
-                    </div>
-                    <div class="menuPhoto">
-                        <img src="images/candles-glow-with-spa-decor.jpg" width="300" height="225" alt="">
-                    </div>
-                </div>
-                <div class="menuItem">
-                    <div class="menuText">
-                        <h3>美脚矯正コース（30分/60分）</h3>
-                        <p> 足の歪み、むくみにお悩みの方におすすめです。 <br>
-                            ※時間には歪みのチェック・カウンセリングも含みます。</p>
-                    </div>
-                    <div class="menuPhoto">
-                        <img src="images/a-woman-points-her-toes-while-stretching-her-legs-in-pool.jpg" width="300" height="225" alt="">
-                    </div>
-                </div>
-            </div>
-            <h2>施術料金</h2>
-            <table border="1">
-                <tr>
-                    <th>施術メニュー</th>
-                    <th>時間</th>
-                    <th>基本料金</th>
-                </tr>
-                <tr>
-                    <td>全身姿勢矯正コース</td>
-                    <td>60分</td>
-                    <td>11,000円</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">首肩集中コース</td>
-                    <td>60分</td>
-                    <td>8,800円</td>
-                </tr>
-                    <td>30分</td>
-                    <td>5,500円</td>
-                </tr>                       
-                <tr>
-                    <td rowspan="2">美脚矯正コース</td>
-                    <td>60分</td>
-                    <td>8,800円</td>
-                </tr>
-                    <td>30分</td>
-                    <td>5,500円</td>
-                </tr> 
-            </table>
-        </main>
-        <!--メインここまで-->
-        <footer id="commonFooter"></footer>    
+                <h2>施術料金</h2>
+                <table border="1">
+                    <tr>
+                        <th>施術メニュー</th>
+                        <th>時間</th>
+                        <th>基本料金</th>
+                    </tr>
+                    <tr>
+                        <td>全身姿勢矯正コース</td>
+                        <td>60分</td>
+                        <td>11,000円</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">首肩集中コース</td>
+                        <td>60分</td>
+                        <td>8,800円</td>
+                    </tr>
+                        <td>30分</td>
+                        <td>5,500円</td>
+                    </tr>                       
+                    <tr>
+                        <td rowspan="2">美脚矯正コース</td>
+                        <td>60分</td>
+                        <td>8,800円</td>
+                    </tr>
+                        <td>30分</td>
+                        <td>5,500円</td>
+                    </tr> 
+                </table>
+            </main>
+            <!--メインここまで-->
+            <footer id="commonFooter"></footer>
+        </div>
     </body>
 </html>
