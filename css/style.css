@@ -126,6 +126,7 @@ button:hover {
 .btnLogin {
     float: right;
     text-align: center;
+    color: #FFF
     background-color: #F2BC51;
     width: 160px;
     padding: 0.8em;
