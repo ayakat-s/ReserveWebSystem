@@ -15,6 +15,14 @@ body {
 	background-color: #FFF;
 }
 
+.container {
+    display: grid;
+    grid-template:
+    "header header header" 80px
+    "left main right" auto
+    "footer footer footer" 50px /
+    300px 1fr 20%;
+
 #commonHeader {
 	grid-area: header;
 }
