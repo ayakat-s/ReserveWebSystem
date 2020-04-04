@@ -107,6 +107,7 @@ button {
     position: relative;
     display: inline-block;
     padding: .65em 4em;
+    background-color: #FFF;
     border: 1px solid #F2BC51;
     color: #333;
     text-decoration: none;
@@ -229,7 +230,7 @@ form {
     width: 800px;
     /* フォームの範囲がわかるようにする */
     padding: 1em;
-    border: 1px solid #CCC;
+    border: 1px solid #F2BC51;
     border-radius: 1em;
 }
   
@@ -255,7 +256,7 @@ input, textarea {
     box-sizing: border-box;
   
     /* テキストフィールドのボーダーの外見を同一にする */
-    border: 1px solid #D1CAC8;
+    border: 1px solid #F2BC51;
 }
   
 input:focus, textarea:focus {
@@ -269,15 +270,4 @@ textarea {
   
     /* テキスト入力に十分な領域を与える */
     height: 5em;
-}
-  
-.button {
-    /* ボタンを他のテキストフィールドと同じ場所に置く */
-    padding-left: 90px; /* label 要素と同じサイズ */
-}
-  
-button {
-    /* このマージンは、ラベルとテキストフィールドの間のスペースと
-       おおよそ同じスペースを表す */
-    margin-left: .5em;
 }
