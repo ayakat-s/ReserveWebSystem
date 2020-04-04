@@ -1,5 +1,5 @@
 <?php
-require '../vendor/autoload.php';
+require _DIR_ . '/../vendor/autoload.php';
 
 class customSmarty
 {
