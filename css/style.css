@@ -97,8 +97,6 @@ th {
 }
 
 button {
-    position: relative;
-    display: center;
     padding: .65em 4em;
     border: 1px solid #FFF;
     background-color: #F2BC51;
@@ -124,13 +122,16 @@ button:hover {
     font-family: 'Playfair Display', serif;
 }
 
+.btn li {
+	display: inline-block;
+}
+
 .btnLogin {
-    float: right;
     text-align: center;
     background-color: #F2BC51;
     width: 160px;
     padding: 0.8em;
-    text-decoration: none;
+    margin: 0.8em;
     border-radius: 4px;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
     -webkit-tap-highlight-color: transparent;
@@ -139,14 +140,12 @@ button:hover {
 
 .btnLogin:hover {
     cursor: pointer;
-	text-decoration: none;
     transform: translate3d(0, 3px, 0);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 3px 10px 0 rgba(0,0,0,0.12), 0 4px 7px -2px rgba(0,0,0,0.2);
     background: #F6D490;
 }
 
 .btnReserve {
-    float: right;
     text-align: center;
     background-color: #F2BC51;
     width: 160px;
