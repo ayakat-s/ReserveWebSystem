@@ -452,7 +452,7 @@ p.center {
     border-bottom:1px solid #F6D490;
 }
 
-/*resetPassword.html
+/*resetPassword.html*/
 .resetForm {
     background-color: #F2BC51;
     width: 400px;
@@ -462,7 +462,7 @@ p.center {
     box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
 }
 
-.sign {
+.sign2 {
     padding-top: 40px;
     color: #FFF;
     text-align: center;
@@ -471,7 +471,7 @@ p.center {
     font-size: 23px;
 }
 
-#userid {
+#userSurname {
     width: 76%;
     color: rgb(38, 50, 56);
     font-weight: 700;
@@ -491,11 +491,11 @@ p.center {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.loginFor form {
+.resetForm form {
     padding-top: 40px;
 }
 
-#password {
+#userGivenname {
     width: 76%;
     color: rgb(38, 50, 56);
     font-weight: 700;
@@ -516,7 +516,7 @@ p.center {
 }
 
 
-#userid:focus, #password:focus {
+#userSurname:focus, #userGivenname:focus {
     border: 2px solid rgba(0, 0, 0, 0.18) !important;
     
 }
@@ -563,4 +563,4 @@ p.center {
     top:1px;
     color: #F6D490;
     border-bottom:1px solid #F6D490;
-}*/
+}
