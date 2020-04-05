@@ -96,8 +96,9 @@ th {
     background: #FFF;/*背景色*/	
 }
 
-button {
+button {/*loginform,signupform,contactform共通ボタン*/
     padding: .65em 4em;
+    margin: 1.2em;
     border: 1px solid #FFF;
     background-color: #F2BC51;
     color: #333;
@@ -237,13 +238,13 @@ nav a:hover{
     flex: 0 0 auto;
 }
 
-/* contact.html*/
-form.contactForm {
+/* contact.tpl*/
+.contactForm form {
     /* フォームをページの中央に置く */
     margin: 0 auto;
     width: 800px;
     /* フォームの範囲がわかるようにする */
-    padding: 1em;
+    padding: 4em;
     border: 1px solid #F2BC51;
     border-radius: 1em;
 }
