@@ -20,13 +20,13 @@
         <title>ログイン｜整体サロン Natural</title>
         <link rel="stylesheet" href="../css/style.css">
     </head>
-    <body>
+    <body class="body2">
         <div class="container">
             <header id="commonHeader"></header>
             <!--メイン-->
             <main class="main">
                 <div class="resetForm">
-                    <p class="sign2">パスワードリセット</p>
+                    <p class="sign">パスワードリセット</p>
                     <form action="resetPassword.php" method="post">
                         <label>登録ID（メールアドレス）<span class="badge badge-danger">必須</span></label>
                         <input id="userid" type="text" placeholder="登録ID（メールアドレス）">
@@ -36,7 +36,7 @@
                         <label>パスワード<span class="badge badge-danger">必須</span></label>
                         <input id="password" type="password" placeholder="パスワード">
                         <a class="submit">送信する</a>
-                        <input type="reset" value="リセット">
+                        <a class="reset" type="reset">リセット</a> 
                     </form>
                 </div>
                 <a href="signin.php">戻る</a>

@@ -20,7 +20,7 @@
         <title>ログイン｜整体サロン Natural</title>
         <link rel="stylesheet" href="../css/style.css">
     </head>
-    <body class="loginBody">
+    <body class="body2">
         <div class="container">
             <header id="commonHeader"></header>
             <main class="main">
