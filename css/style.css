@@ -272,12 +272,23 @@ form.contactForm {
     /* テキストフィールドのボーダーの外見を同一にする */
     border: 1px solid #F2BC51;
 }
+
+.contactForm textarea {
+    font: 1em sans-serif;
+    width: 500px;
+    box-sizing: border-box;
+    border: 1px solid #F2BC51;
+}
   
-.contactForm input:focus, textarea:focus {
+.contactForm input:focus {
     /* アクティブな要素を少し強調する */
     border-color: #000;
 }
-  
+
+.contactForm textarea:focus {
+    border-color: #000;
+}
+
 .contactForm textarea {
     /* 複数行のテキストフィールドをラベルにきちんと揃える */
     vertical-align: top;
