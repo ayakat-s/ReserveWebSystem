@@ -137,6 +137,10 @@ button:hover {
     background: #F6D490;
 }
 
+p.center {/*contact.html,login.html,sighup.html共通*/
+    text-align: center;
+}
+
 /* 個別のスタイル */
 /* header.html */
 .jumbotron-extend {
@@ -330,6 +334,43 @@ nav a:hover{
     height: 10em;
 }
 
-p.center {
-    text-align: center;
+/* login.tpl*/
+.loginForm form {
+    /* フォームをページの中央に置く */
+    margin: 0 auto;
+    width: 800px;
+    /* フォームの範囲がわかるようにする */
+    padding: 2em;
+    border: 1px solid #F2BC51;
+    border-radius: 1em;
+}
+  
+.loginForm div + div {
+    margin-top: 1em;
+}
+  
+.loginForm label {
+    /* すべてのラベルを同じサイズにして、きちんと揃える */
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    padding: 1em;
+}
+  
+.loginForm input {
+    /* すべてのテキストフィールドのフォント設定を一致させる
+       デフォルトで、textarea は等幅フォントが設定されている */
+    font: 1em sans-serif;
+  
+    /* すべてのテキストフィールドを同じサイズにする */
+    width: 500px;
+    box-sizing: border-box;
+  
+    /* テキストフィールドのボーダーの外見を同一にする */
+    border: 1px solid #F2BC51;
+}
+  
+.loginForm input:focus {
+    /* アクティブな要素を少し強調する */
+    border-color: #000;
 }
