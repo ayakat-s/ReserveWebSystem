@@ -122,8 +122,9 @@ button:hover {
     font-family: 'Playfair Display', serif;
 }
 
-.btn ul {
+.btn {
     text-align: right;
+	position: relative;
 }
 
 .btn li {
@@ -166,12 +167,12 @@ button:hover {
     background: #F6D490;
 }
 
-.sighup {
+.btn a {
     text-decoration: none;
     color: #333;
 }
 
-.sighup:hover{
+.btn a:hover{
     position:relative;
     top:1px;
     color:#F2BC51;
