@@ -26,12 +26,14 @@
             <!--メイン-->
             <main class="main">
                 <div class="resetForm">
-                    <p class="sign2">パスワードの再設定</p>
+                    <p class="sign2">パスワードリセット</p>
                     <form action="resetPassword.php" method="post">
                         <label>登録ID（メールアドレス）<span class="badge badge-danger">必須</span></label>
                         <input id="userid" type="text" placeholder="登録ID（メールアドレス）">
-                        <input id="userSurname" type="text" placeholder="例）山田">
-                        <input id="userGivenname" type="text" placeholder="例）花子">
+                        <label>お名前<span class="badge badge-danger">必須</span></label>
+                        <td>姓<input id="userSurname" type="text" placeholder="例）山田"></td>
+                        <td>名<input id="userGivenname" type="text" placeholder="例）花子"></td>
+                        <label>パスワード<span class="badge badge-danger">必須</span></label>
                         <input id="password" type="password" placeholder="パスワード">
                         <input type="submit" value="送信する">
                         <input type="reset" value="リセット">

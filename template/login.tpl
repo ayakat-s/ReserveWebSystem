@@ -29,7 +29,7 @@
                     <form action="login.php" method="post">
                         <input id="userid" type="text" placeholder="登録ID（メールアドレス）">
                         <input id="password" type="password" placeholder="パスワード">
-                        <a class="submit">ログイン</a>
+                        <input type="submit">ログイン</a>
                         <p class="forgot"><a href="resetPassword.php">パスワードをお忘れですか？</a></p>
                     </form>
                 </div>
