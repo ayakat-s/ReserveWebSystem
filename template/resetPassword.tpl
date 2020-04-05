@@ -36,7 +36,6 @@
                         <label>パスワード<span class="badge badge-danger">必須</span></label>
                         <input id="password" type="password" placeholder="パスワード">
                         <a class="submit">送信する</a>
-                        <a class="reset" type="reset">リセット</a> 
                     </form>
                 </div>
                 <a href="signin.php">戻る</a>
