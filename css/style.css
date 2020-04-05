@@ -123,15 +123,15 @@ button:hover {
 }
 
 .btn li {
-	display: inline-block;
+    display: inline-block;
+    text-align: right;
 }
 
 .btnLogin {
-    text-align: center;
     background-color: #F2BC51;
     width: 160px;
     padding: 0.8em;
-    margin: 0.8em;
+    margin: 0.4em;
     border-radius: 4px;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
     -webkit-tap-highlight-color: transparent;
@@ -150,7 +150,7 @@ button:hover {
     background-color: #F2BC51;
     width: 160px;
     padding: 0.8em;
-    text-decoration: none;
+    margin: 0.4em;
     border-radius: 4px;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
     -webkit-tap-highlight-color: transparent;
