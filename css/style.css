@@ -177,7 +177,7 @@ p.right {
 p.right a {
     text-decoration: none;
     color: #333;
-    margin: 0.8em;
+    margin: 1.2em;
 }
 
 p.right a:hover{
@@ -238,7 +238,7 @@ nav a:hover{
 }
 
 /* contact.html*/
-form {
+.contactForm {
     /* フォームをページの中央に置く */
     margin: 0 auto;
     width: 800px;
@@ -248,11 +248,11 @@ form {
     border-radius: 1em;
 }
   
-form div + div {
+.contactForm div + div {
     margin-top: 1em;
 }
   
-label {
+.contactForm label {
     /* すべてのラベルを同じサイズにして、きちんと揃える */
     display: inline-block;
     width: 200px;
@@ -260,7 +260,7 @@ label {
     padding: 1em;
 }
   
-input, textarea {
+.contactForm input, textarea {
     /* すべてのテキストフィールドのフォント設定を一致させる
        デフォルトで、textarea は等幅フォントが設定されている */
     font: 1em sans-serif;
@@ -273,15 +273,19 @@ input, textarea {
     border: 1px solid #F2BC51;
 }
   
-input:focus, textarea:focus {
+.contactForm input:focus, textarea:focus {
     /* アクティブな要素を少し強調する */
     border-color: #000;
 }
   
-textarea {
+.contactForm textarea {
     /* 複数行のテキストフィールドをラベルにきちんと揃える */
     vertical-align: top;
   
     /* テキスト入力に十分な領域を与える */
     height: 10em;
+}
+
+.center {
+    text-align: center;
 }
