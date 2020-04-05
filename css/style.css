@@ -53,7 +53,7 @@ h2 {
 	font-size: 22px;
 	margin-top: 20px;
 	margin-right: 0px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	margin-left: 0px;
 	padding-top: 5px;
 	padding-right: 5px;
@@ -62,8 +62,33 @@ h2 {
 }
 
 h3 {
-	color: #333;
-	font-size: 18px;
+    position: relative;
+    padding: 0 .5em .5em 2em;
+    font-size: 18px;
+}
+
+h3::before,
+h3::after {
+    position: absolute;
+    content: '';
+    border-radius: 100%
+}
+  
+h3::before {
+    top: .2em;
+    left: .2em;
+    z-index: 2;
+    width: 18px;
+    height: 18px;
+    background: #F2BC51;
+}
+
+h3::after {
+    top: .7em;
+    left: .7em;
+    width: 13px;
+    height: 13px;
+    background: #F6D490;
 }
 
 p {

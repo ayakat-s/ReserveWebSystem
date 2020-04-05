@@ -25,6 +25,7 @@
         <header id="commonHeader"></header>
         <main class="main">
             <h2>ログイン</h2>
+            <div class="loginForm">
                 <form action="login.php" method="post">
                     <div>
                         <label>登録ID（メールアドレス）</label>
@@ -38,7 +39,8 @@
                         <input type="submit" id="login" name="login" value="ログイン" class="">
                     </div>
                     <p><a href="resetPassword.php">パスワードをお忘れですか？</a></p>
-            </form>
+                </form>
+            </div>
             <a href="index.php">戻る</a>
         </main>
         <!--メインここまで-->
