@@ -134,6 +134,7 @@ button:hover {
 
 .btnLogin {
     background-color: #F2BC51;
+    text-align: center;
     width: 160px;
     padding: 0.8em;
     margin: 0.4em;
@@ -152,6 +153,7 @@ button:hover {
 
 .btnReserve {
     background-color: #F2BC51;
+    text-align: center;
     width: 160px;
     padding: 0.8em;
     margin: 0.4em;
@@ -168,12 +170,17 @@ button:hover {
     background: #F6D490;
 }
 
-.btn a {
+.btn2 {
+    width: 100%;
+    text-align: right;
+	position: relative;
+}
+.btn2 a {
     text-decoration: none;
     color: #333;
 }
 
-.btn a:hover{
+.btn2 a:hover{
     position:relative;
     top:1px;
     color:#F2BC51;
