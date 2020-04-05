@@ -20,25 +20,17 @@
         <title>ログイン｜整体サロン Natural</title>
         <link rel="stylesheet" href="../css/style.css">
     </head>
-<body>
+<body class="loginBody">
     <div class="container">
         <header id="commonHeader"></header>
         <main class="main">
-            <h2>ログイン</h2>
             <div class="loginForm">
+                <p class="sign">Login</p>
                 <form action="login.php" method="post">
-                    <div>
-                        <label>登録ID（メールアドレス）</label>
-                        <input id="userid" type="text" name="userid" value="">
-                    </div>
-                    <div>
-                        <label>パスワード</label>
-                        <input id="password" type="password" name="password" value="">
-                    </div>
-                    <ul class="btnCenter">
-                        <li><button type="submit" id="login" name="login">ログイン</button></li>
-                        <li><a href="resetPassword.php">パスワードをお忘れですか？</a></li>
-                    </ul>
+                    <input class="un " type="text" placeholder="登録ID（メールアドレス）">
+                    <input class="pass" type="password" placeholder="パスワード">
+                    <a class="submit">ログイン</a>
+                    <p class="forgot"><a href="resetPassword.php">パスワードをお忘れですか？</p>
                 </form>
             </div>
             <a href="index.php">戻る</a>
