@@ -27,8 +27,8 @@
                 <div class="loginForm">
                     <p class="sign">Login</p>
                     <form action="login.php" method="post">
-                        <input class="un" type="text" placeholder="登録ID（メールアドレス）">
-                        <input class="pass" type="password" placeholder="パスワード">
+                        <input id="userid" type="text" placeholder="登録ID（メールアドレス）">
+                        <input id="password" type="password" placeholder="パスワード">
                         <a class="submit">ログイン</a>
                         <p class="forgot"><a href="resetPassword.php">パスワードをお忘れですか？</a></p>
                     </form>
