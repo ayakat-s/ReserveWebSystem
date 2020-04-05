@@ -123,6 +123,7 @@ button:hover {
 }
 
 .btn {
+    width: 100%;
     text-align: right;
 	position: relative;
 }
