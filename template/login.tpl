@@ -35,8 +35,8 @@
                         <label>パスワード</label>
                         <input id="password" type="password" name="password" value="">
                     </div>
-                    <ul>
-                        <li><button type="submit" id="login" name="login" value="ログイン"></button></li>
+                    <ul class="btnCenter">
+                        <li><button type="submit" id="login" name="login">ログイン</button></li>
                         <li><a href="resetPassword.php">パスワードをお忘れですか？</a></li>
                     </ul>
                 </form>
