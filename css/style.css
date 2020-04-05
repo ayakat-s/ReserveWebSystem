@@ -238,7 +238,7 @@ nav a:hover{
 }
 
 /* contact.html*/
-.contactForm {
+form.contactForm {
     /* フォームをページの中央に置く */
     margin: 0 auto;
     width: 800px;
@@ -286,6 +286,6 @@ nav a:hover{
     height: 10em;
 }
 
-.center {
+p.center {
     text-align: center;
 }
