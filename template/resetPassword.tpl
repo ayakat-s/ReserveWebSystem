@@ -25,28 +25,26 @@
             <header id="commonHeader"></header>
             <!--メイン-->
             <main class="main">
-                <form>
-                    <h2>パスワードの再設定</h2>
-                    <div>
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <th>登録ID（メールアドレス）：</th>
-                                    <td><input id="userid" type="text" name="userid"></td>
-                                </tr>
-                                <tr> 
-                                    <th>お名前：</th>
-                                    <td>姓<input id="user_surname" type="text" name="user_surname"></td>
-                                    <td>名<input id="user_givenname" type="text" name="user_givenname"></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div>
+                <div class="resetForm">
+                    <p class="sign">パスワードの再設定</p>
+                    <form action="resetPassword.php" method="post">
+                        <div>
+                            <label>登録ID（メールアドレス）<span class="badge badge-danger">必須</span></label>
+                            <input id="userid" type="text" placeholder="例）guest@example.com">
+                        </div>
+                        <div>
+                            <label>お名前<span class="badge badge-danger">必須</span></label>
+                            <td>姓<input id="userSurname" type="text" placeholder="例）山田"></td>
+                            <td>名<input id="userGivenname" type="text" placeholder="例）花子"></td>
+                        </div>
+                        <div>
+                            <label>パスワード<span class="badge badge-danger">必須</span></label>
+                            <input id="password" type="password">
+                        </div>
                         <input type="submit" value="送信する">
-                        <inputn type="reset" value="リセット">
-                    </div>
-                </form>
+                        <input type="reset" value="リセット">
+                    </form>
+                </div>
                 <a href="signin.php">戻る</a>
             </main>
             <!--メインここまで-->

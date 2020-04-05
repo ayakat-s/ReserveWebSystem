@@ -25,7 +25,7 @@
             <header id="commonHeader"></header>
             <!--メイン-->
             <main class="main">
-                <h2>ご希望の来店日時を選択してください</h2>
+                <h3>ご希望の来店日時を選択してください</h3>
                     <div class="container mt-5">
                         <ul class="nav nav-tabs">
                             <li class="nav-item"><a href="reserve.php" class="nav-link active">サロンの空き状況</a></li>

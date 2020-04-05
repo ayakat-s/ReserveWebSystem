@@ -17,16 +17,15 @@
                     $("#commonFooter").load("template/footer.html");
                 });
             </script>
-        <title>空き状況・ご予約｜整体サロン Natural
-        </title>
+        <title>空き状況・ご予約｜整体サロン Natural</title>
         <link rel="stylesheet" href="../css/style.css">
     </head>
     <body>
         <div class="wrapper"></div>
         <header id="commonHeader"></header>
         <!--メイン-->
-        <main>
-            <h2>ご希望の来店日時を選択してください</h2>
+        <main class="main">
+            <h3>ご希望の来店日時を選択してください</h3>
                 <div class="container mt-5">
                     <ul class="nav nav-tabs">
                         <li class="nav-item"><a href="reserve.php" class="nav-link">サロンの空き状況</a></li>

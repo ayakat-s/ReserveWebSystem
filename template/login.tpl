@@ -20,23 +20,23 @@
         <title>ログイン｜整体サロン Natural</title>
         <link rel="stylesheet" href="../css/style.css">
     </head>
-<body class="loginBody">
-    <div class="container">
-        <header id="commonHeader"></header>
-        <main class="main">
-            <div class="loginForm">
-                <p class="sign">Login</p>
-                <form action="login.php" method="post">
-                    <input class="un " type="text" placeholder="登録ID（メールアドレス）">
-                    <input class="pass" type="password" placeholder="パスワード">
-                    <a class="submit">ログイン</a>
-                    <p class="forgot"><a href="resetPassword.php">パスワードをお忘れですか？</p>
-                </form>
-            </div>
-            <a href="index.php">戻る</a>
-        </main>
-        <!--メインここまで-->
-        <footer id="commonFooter"></footer>
-    </div>
-</body>
+    <body class="loginBody">
+        <div class="container">
+            <header id="commonHeader"></header>
+            <main class="main">
+                <div class="loginForm">
+                    <p class="sign">Login</p>
+                    <form action="login.php" method="post">
+                        <input class="un" type="text" placeholder="登録ID（メールアドレス）">
+                        <input class="pass" type="password" placeholder="パスワード">
+                        <a class="submit">ログイン</a>
+                        <p class="forgot"><a href="resetPassword.php">パスワードをお忘れですか？</a></p>
+                    </form>
+                </div>
+                <a href="index.php">戻る</a>
+            </main>
+            <!--メインここまで-->
+            <footer id="commonFooter"></footer>
+        </div>
+    </body>
 </html>
