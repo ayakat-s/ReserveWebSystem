@@ -170,16 +170,16 @@ button:hover {
     background: #F6D490;
 }
 
-.right {
+p.right {
     text-align: right;
 }
 
-.right a {
+p.right a {
     text-decoration: none;
     color: #333;
 }
 
-.right a:hover{
+p.right a:hover{
     position:relative;
     top:1px;
     color:#F2BC51;

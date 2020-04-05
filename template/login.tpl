@@ -37,9 +37,7 @@
                     <div>
                         <input type="submit" id="login" name="login" value="ログイン" class="">
                     </div>
-                    <p>
-                        <a href="resetPassword.php">パスワードをお忘れですか？</a>
-                    </p>
+                    <p><a href="resetPassword.php">パスワードをお忘れですか？</a></p>
             </form>
             <a href="index.php">戻る</a>
         </main>
