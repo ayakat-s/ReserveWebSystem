@@ -177,6 +177,7 @@ p.right {
 p.right a {
     text-decoration: none;
     color: #333;
+    margin: 0.8em;
 }
 
 p.right a:hover{
