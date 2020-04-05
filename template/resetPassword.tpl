@@ -35,7 +35,7 @@
                         <td>名<input id="userGivenname" type="text" placeholder="例）花子"></td>
                         <label>パスワード<span class="badge badge-danger">必須</span></label>
                         <input id="password" type="password" placeholder="パスワード">
-                        <input type="submit" value="送信する">
+                        <a class="submit">送信する</a>
                         <input type="reset" value="リセット">
                     </form>
                 </div>
