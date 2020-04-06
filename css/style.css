@@ -91,6 +91,12 @@ h3::after {
     background: #F6D490;
 }
 
+h4 {
+    position: relative;
+    padding: 0 .5em .5em 2em;
+    font-size: 16px;
+}
+
 p {
 	line-height: 1.6;
 }
@@ -245,7 +251,7 @@ nav a:hover{
     padding-top: 10px;
     font-family: 'Ubuntu', sans-serif;
     margin-left: 35%;
-    font-size: 13px;
+    font-size: 14px;
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
 }
 
