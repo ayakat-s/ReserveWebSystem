@@ -93,8 +93,7 @@ h3::after {
 
 h4 {
     position: relative;
-    padding: 0 .5em .5em 2em;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 p {
@@ -102,20 +101,20 @@ p {
 }
 
 a:link {
-	color: #333;
+	color: #766F60;
 }
 
 a:visited {
-	color: #333;
+	color: #766F60;
 }
 
 a:hover {
-    color: #333;
+    color: #F6D490;
     text-decoration: none;
 }
 
 a:active {
-	color: #333;
+	color: #766F60;
 }
   
 table {
@@ -123,7 +122,7 @@ table {
 }
 
 th {
-    color: #686767;/*文字色*/
+    color: #766F60;/*文字色*/
     background: #FFF;/*背景色*/	
 }
 
