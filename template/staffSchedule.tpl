@@ -21,19 +21,20 @@
         <link rel="stylesheet" href="../css/style.css">
     </head>
     <body>
-        <div class="wrapper"></div>
-        <header id="commonHeader"></header>
-        <!--メイン-->
-        <main class="main">
-            <h3>ご希望の来店日時を選択してください</h3>
-                <div class="container mt-5">
-                    <ul class="nav nav-tabs">
-                        <li class="nav-item"><a href="reserve.php" class="nav-link">サロンの空き状況</a></li>
-                        <li class="nav-item"><a href="staffSchedule.php" class="nav-link active">スタッフ別の空き状況</a></li>
-                    </ul>
-                </div>
-        </main>
-        <!--メインここまで-->
-        <footer id="commonFooter"></footer>
+        <div class="container">
+            <header id="commonHeader"></header>
+            <!--メイン-->
+            <main class="main">
+                <h3>ご希望の来店日時を選択してください</h3>
+                    <div class="container mt-5">
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item"><a href="reserve.php" class="nav-link">サロンの空き状況</a></li>
+                            <li class="nav-item"><a href="staffSchedule.php" class="nav-link active">スタッフ別の空き状況</a></li>
+                        </ul>
+                    </div>
+            </main>
+            <!--メインここまで-->
+            <footer id="commonFooter"></footer>
+        </div>
     </body>
 </html>
