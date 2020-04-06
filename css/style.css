@@ -293,7 +293,7 @@ nav a:hover{
     display: inline-block;
     width: 200px;
     text-align: left;
-    padding: 1em;
+    padding: 0.5em;
 }
   
 .contactForm input {
@@ -301,7 +301,7 @@ nav a:hover{
     width: 500px;
     box-sizing: border-box;
     border: 1px solid #F2BC51;
-    border-radius: 3em;
+    border-radius: 0.5em;
 }
 
 .contactForm textarea {
@@ -309,11 +309,12 @@ nav a:hover{
     width: 500px;
     box-sizing: border-box;
     border: 1px solid #F2BC51;
-    border-radius: 3em;
+    border-radius: 0.5em;
 }
 
 .contactForm a {
-    margin: 15px}
+    margin: 15px;
+}
   
 .contactForm input:focus {
     /* アクティブな要素を少し強調する */
