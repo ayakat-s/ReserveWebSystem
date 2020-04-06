@@ -25,7 +25,7 @@
             <header id="commonHeader"></header>
             <!--メイン-->
             <main class="main">
-                <div class="resetForm">
+                <div class="commonForm">
                     <p class="sign">パスワードリセット</p>
                     <form action="resetPassword.php" method="post">
                         <label>登録ID（メールアドレス）<span class="badge badge-danger">必須</span></label>
@@ -40,7 +40,7 @@
                         <a class="submit">送信する</a>
                     </form>
                 </div>
-                <a href="signin.php">戻る</a>
+                <a href="login.php">戻る</a>
             </main>
             <!--メインここまで-->
             <footer id="commonFooter"></footer>

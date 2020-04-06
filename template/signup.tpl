@@ -25,26 +25,22 @@
             <header id="commonHeader"></header>
             <!--メイン-->
             <main class="main">
-                <h3>アカウント登録</h3>
-                    <div class="signupForm">
-                        <form action="signup.php" method="post">
-                            <div>
-                                <label>登録ID（メールアドレス）<span class="badge badge-danger">必須</span></label>
-                                <input id="userid" type="text" name="userid" placeholder="　例）guest@example.com" value="">
-                            </div>
-                            <div>
-                                <label>お名前<span class="badge badge-danger">必須</span></label>
-                                <td>姓<input id="userSurname" type="text" name="userSurname" value=""></td>
-                                <td>名<input id="userGivenname" type="text" name="userGivenname" value=""></td>
-                            </div>
-                            <div>
-                                <label>パスワード<span class="badge badge-danger">必須</span></label>
-                                <input id="password" type="password" name="password" value="">
-                            </div>
-                            <p class="center"><button type="submit">確認画面へ</button></p>
-                        </form>
-                    </div>
-                    <a href="index.php">戻る</a>
+                <div class="commonForm">
+                    <h3>アカウント登録</h3>
+                    <form action="signup.php" method="post">
+                        <label>登録ID（メールアドレス）<span class="badge badge-danger">必須</span></label>
+                        <input id="userid" type="text" name="userid" placeholder="　例）guest@example.com">
+                        <label>お名前<span class="badge badge-danger">必須</span></label><br>
+                        <label>
+                            姓<input id="userSurname" type="text" name="userSurname">
+                            名<input id="userGivenname" type="text" name="userGivenname">
+                        </label>
+                        <label>パスワード<span class="badge badge-danger">必須</span></label>
+                        <input id="password" type="password" name="password">
+                        <p class="center"><button type="submit">確認画面へ</button></p>
+                    </form>
+                </div>
+                <a href="index.php">戻る</a>
             </main>
             <!--メインここまで-->
             <footer id="commonFooter"></footer>
