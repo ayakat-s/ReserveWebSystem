@@ -65,6 +65,7 @@ h3 {
     position: relative;
     padding: 0 .5em .5em 2em;
     font-size: 18px;
+    color: #766F60;
 }
 
 h3::before,
@@ -97,7 +98,8 @@ h4 {
 }
 
 p {
-	line-height: 1.6;
+    line-height: 1.6;
+    color: #766F60;
 }
 
 a:link {
