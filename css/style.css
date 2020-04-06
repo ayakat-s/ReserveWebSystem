@@ -319,10 +319,11 @@ p.center {
 }
 
 button {
+    border-radius: 5em;
     padding: .65em 4em;
     margin: 1.2em;
     border: 1px solid #FFF;
-    background-color: #F2BC51;
+    background: linear-gradient(to right, #F2BC51, #F6D490);
     color: #333;
     text-decoration: none;
     text-align: center;
@@ -331,6 +332,7 @@ button {
 }
 
 button:hover {
+    cursor: pointer;
     background: #F6D490;
 }
 

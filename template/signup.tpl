@@ -26,7 +26,7 @@
             <!--メイン-->
             <main class="main">
                 <div class="commonForm">
-                    <h3>アカウント登録</h3>
+                    <p class="sign">アカウント登録</p>
                     <form action="signup.php" method="post">
                         <label>登録ID（メールアドレス）<span class="badge badge-danger">必須</span></label>
                         <input id="userid" type="text" name="userid" placeholder="　例）guest@example.com">

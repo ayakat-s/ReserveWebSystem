@@ -40,7 +40,7 @@
                         <a class="submit">送信する</a>
                     </form>
                 </div>
-                <a href="login.php">戻る</a>
+                <a href="login.php">ログイン画面へ戻る</a>
             </main>
             <!--メインここまで-->
             <footer id="commonFooter"></footer>
