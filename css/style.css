@@ -111,7 +111,7 @@ a:visited {
 }
 
 a:hover {
-    color: #F6D490;
+    color: #F2BC51;
     text-decoration: none;
 }
 
@@ -278,10 +278,8 @@ nav a:hover{
 
 /* contact.tpl*/
 .contactForm form {
-    /* フォームをページの中央に置く */
     margin: 0 auto;
     width: 800px;
-    /* フォームの範囲がわかるようにする */
     padding: 2em;
     border: 1px solid #F2BC51;
     border-radius: 1em;
@@ -292,7 +290,6 @@ nav a:hover{
 }
   
 .contactForm label {
-    /* すべてのラベルを同じサイズにして、きちんと揃える */
     display: inline-block;
     width: 200px;
     text-align: left;
@@ -300,31 +297,23 @@ nav a:hover{
 }
   
 .contactForm input {
-    /* すべてのテキストフィールドのフォント設定を一致させる
-       デフォルトで、textarea は等幅フォントが設定されている */
-    font: 1em sans-serif;
-  
-    /* すべてのテキストフィールドを同じサイズにする */
+    font: 1em;
     width: 500px;
     box-sizing: border-box;
-  
-    /* テキストフィールドのボーダーの外見を同一にする */
     border: 1px solid #F2BC51;
+    border-radius: 3em;
 }
 
 .contactForm textarea {
-    font: 1em sans-serif;
+    font: 1em;
     width: 500px;
     box-sizing: border-box;
     border: 1px solid #F2BC51;
+    border-radius: 3em;
 }
 
-.contactForm textarea {
-    font: 1em sans-serif;
-    width: 500px;
-    box-sizing: border-box;
-    border: 1px solid #F2BC51;
-}
+.contactForm a {
+    margin: 15px}
   
 .contactForm input:focus {
     /* アクティブな要素を少し強調する */
