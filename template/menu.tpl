@@ -25,7 +25,7 @@
             <header id="commonHeader"></header>
             <!--メイン-->
             <main class="main">
-                <h2>メニュー</h2>
+                <h2>MENU</h2>
                 <div class="menuBlock">
                     <div class="menuItem">
                         <div class="menuTtext">

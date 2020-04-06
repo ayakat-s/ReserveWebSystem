@@ -25,7 +25,7 @@
             <header id="commonHeader"></header>
             <!--メイン-->
             <main class="main">
-                <h2>お問い合わせ</h2>
+                <h2>CONTACT</h2>
                 <div class="contactForm">
                     <form action="confirm.php" method="post" name="form" onsubmit="return validate()">
                         <h3>お問い合わせ 内容入力</h3>
