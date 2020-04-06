@@ -37,7 +37,7 @@
                         </label>
                         <label>パスワード<span class="badge badge-danger">必須</span></label>
                         <input id="password" type="password" name="password">
-                        <p class="center"><button type="submit">確認画面へ</button></p>
+                        <a class="submit">確認画面へ</a>
                     </form>
                 </div>
                 <a href="index.php">戻る</a>

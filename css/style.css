@@ -233,6 +233,29 @@ nav a:hover{
     border-bottom:1px solid #F2BC51;
 }
 
+.submit {
+    cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background: linear-gradient(to right, #F2BC51, #F6D490);
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 35%;
+    font-size: 13px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.submit:hover {
+    cursor: pointer;
+    transform: translate3d(0, 3px, 0);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 3px 10px 0 rgba(0,0,0,0.12), 0 4px 7px -2px rgba(0,0,0,0.2);
+    background: #F6D490;
+}
+
 /* menu.html*/
 .menuItem {
     display: flex;
@@ -314,28 +337,6 @@ nav a:hover{
     height: 10em;
 }
 
-p.center {
-    text-align: center;
-}
-
-button {
-    border-radius: 5em;
-    padding: .65em 4em;
-    margin: 1.2em;
-    border: 1px solid #FFF;
-    background: linear-gradient(to right, #F2BC51, #F6D490);
-    color: #333;
-    text-decoration: none;
-    text-align: center;
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-}
-
-button:hover {
-    cursor: pointer;
-    background: #F6D490;
-}
-
 /* login.tpl*/
 .body2 {
     background-color: #F6D490;
@@ -408,29 +409,6 @@ button:hover {
 #userid:focus, #password:focus {
     border: 2px solid rgba(0, 0, 0, 0.18) !important;
     
-}
-
-.submit {
-    cursor: pointer;
-    border-radius: 5em;
-    color: #fff;
-    background: linear-gradient(to right, #F2BC51, #F6D490);
-    border: 0;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    font-family: 'Ubuntu', sans-serif;
-    margin-left: 35%;
-    font-size: 13px;
-    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
-}
-
-.submit:hover {
-    cursor: pointer;
-    transform: translate3d(0, 3px, 0);
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 3px 10px 0 rgba(0,0,0,0.12), 0 4px 7px -2px rgba(0,0,0,0.2);
-    background: #F6D490;
 }
 
 .forgot {

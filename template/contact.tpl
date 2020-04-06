@@ -27,23 +27,23 @@
             <main class="main">
                 <h2>お問い合わせ</h2>
                 <div class="contactForm">
-                <form action="confirm.php" method="post" name="form" onsubmit="return validate()">
-                    <h3>お問い合わせ 内容入力</h3>
-                    <p>お問い合わせ内容をご入力の上、「確認画面へ」ボタンをクリックしてください。</p>
-                    <div>
-                        <label>お名前<span class="badge badge-danger">必須</span></label>
-                        <input type="text" name="name" placeholder="　例）山田 花子" value="">
-                    </div>
-                    <div>
-                        <label>メールアドレス<span class="badge badge-danger">必須</span></label>
-                        <input type="text" name="email" placeholder="　例）guest@example.com" value="">
-                    </div>
-                    <div>
-                        <label>お問い合わせ内容<span class="badge badge-danger">必須</span></label>
-                        <textarea name="content" rows="10" placeholder="　お問合せ内容を入力してください。"></textarea>
-                    </div>
-                    <p class="center"><button type="submit">確認画面へ</button></p>
-                </form>
+                    <form action="confirm.php" method="post" name="form" onsubmit="return validate()">
+                        <h3>お問い合わせ 内容入力</h3>
+                        <p>お問い合わせ内容をご入力の上、「確認画面へ」ボタンをクリックしてください。</p>
+                        <div>
+                            <label>お名前<span class="badge badge-danger">必須</span></label>
+                            <input type="text" name="name" placeholder="　例）山田 花子" value="">
+                        </div>
+                        <div>
+                            <label>メールアドレス<span class="badge badge-danger">必須</span></label>
+                            <input type="text" name="email" placeholder="　例）guest@example.com" value="">
+                        </div>
+                        <div>
+                            <label>お問い合わせ内容<span class="badge badge-danger">必須</span></label>
+                            <textarea name="content" rows="10" placeholder="　お問合せ内容を入力してください。"></textarea>
+                        </div>
+                        <a class="submit">確認画面へ</a>
+                    </form>
                 </div>
                 <a href="index.php">戻る</a>
             </main>
