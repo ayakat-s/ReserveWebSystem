@@ -139,6 +139,11 @@ th {
     font-family: 'Playfair Display', serif;
 }
 
+.logo {
+    margin: 0 0 0 auto;
+    flex: 1 1 1;
+}
+
 .btnRight {
     width: 100%;
     text-align: right;
