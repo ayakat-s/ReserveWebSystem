@@ -139,17 +139,15 @@ th {
     font-family: 'Playfair Display', serif;
 }
 
-h1 {
+.logo {
 	float: left;
 	padding: 6px 0;
 }
 
-h1 a {
+.logo img {
 	display: block;
 	width: 31%;
 	height: auto;
-    font-size: 0;
-    background: url(../images/natural.png) left top/64px auto no-repeat;
 }
 
 
