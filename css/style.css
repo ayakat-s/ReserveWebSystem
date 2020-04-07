@@ -139,10 +139,18 @@ th {
     font-family: 'Playfair Display', serif;
 }
 
-.logo {
-    width: 31%;
-    height: auto;
+h1 {
+	float: left;
+	padding: 6px 0;
 }
+
+h1 a {
+	display: block;
+	width: 31%;
+	height: auto;
+	font-size: 0;
+}
+
 
 .btnRight {
     width: 100%;
