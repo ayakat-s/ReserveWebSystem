@@ -141,7 +141,6 @@ th {
 
 .logo {
 	float: left;
-	padding: 6px 0;
 }
 
 .logo img {
@@ -149,7 +148,6 @@ th {
 	width: 40%;
 	height: auto;
 }
-
 
 .btnRight {
     width: 100%;
