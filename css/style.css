@@ -148,6 +148,8 @@ h1 a {
 	display: block;
 	width: 31%;
 	height: auto;
+    font-size: 0;
+    background: url(./images//natural.png) left top/64px auto no-repeat;
 }
 
 
