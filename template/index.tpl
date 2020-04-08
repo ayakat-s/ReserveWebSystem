@@ -40,7 +40,7 @@
                 <script src="https://unpkg.com/swiper/js/swiper.min.js"></script> 
                 <script>
                     var mySwiper = new Swiper('.swiper-container', {
-                        effect: 'slide',
+                        effect: 'fade',
                         autoplay: {
                             delay: 3000,
                             stopOnLastSlide: false,
