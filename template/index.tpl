@@ -20,26 +20,6 @@
                 $("#commonFooter").load("template/footer.html");
             });
         </script>
-        <script>
-            var mySwiper = new Swiper('.swiper-container', {
-                effect: 'fade',
-                autoplay: {
-                    delay: 3000,
-                    stopOnLastSlide: false,
-                    disableOnInteraction: false,
-                    reverseDirection: false
-                },
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev'
-                },
-                pagination: {
-                    el: '.swiper-pagination',
-                    type: 'bullets',
-                    clickable: true
-                }
-            });
-        </script>
         <title>Welcome to 整体サロン Natural</title>
         <link rel="stylesheet" href="../css/style.css">
     </head>
