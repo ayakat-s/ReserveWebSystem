@@ -41,7 +41,7 @@
                 <script>
                     var mySwiper = new Swiper('.swiper-container', {
                         autoplay: {
-                            delay: 3000,
+                            delay: 5000,
                             stopOnLastSlide: false,
                             disableOnInteraction: false,
                             reverseDirection: false
