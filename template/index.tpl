@@ -26,44 +26,44 @@
         <div class="container">
             <header id="commonHeader"></header>
             <main class="main">
-                <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
-                <script>
-                    var mySwiper = new Swiper ('.swiper-container', {
-                      // 以下にオプションを設定
-                      loop: true, //最後に達したら先頭に戻る
-                     
-                      //ページネーション表示の設定
-                      pagination: { 
-                        el: '.swiper-pagination', //ページネーションの要素
-                        type: 'bullets', //ページネーションの種類
-                        clickable: true, //クリックに反応させる
-                      },
-                     
-                      //ナビゲーションボタン（矢印）表示の設定
-                      navigation: { 
-                        nextEl: '.swiper-button-next', //「次へボタン」要素の指定
-                        prevEl: '.swiper-button-prev', //「前へボタン」要素の指定
-                      },
-                     
-                      //スクロールバー表示の設定
-                      scrollbar: { 
-                        el: '.swiper-scrollbar', //要素の指定
-                      },
-                    })
-                    </script> 
                 <div class="swiper-container">
-                    <!-- メイン表示部分 -->
+                    <!-- Sliderの内包コンテナ -->
                     <div class="swiper-wrapper">
-                        <!-- 各スライド -->
+                        <!-- Slideさせたいコンテンツ -->
                         <div class="swiper-slide">Slide 1</div>
                         <div class="swiper-slide">Slide 2</div>
                         <div class="swiper-slide">Slide 3</div>
-                        <div class="swiper-slide">Slide 4</div>
                     </div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
+                    <!-- ページネーション（※省略可） -->
                     <div class="swiper-pagination"></div>
+                    <!-- ナビゲーションボタン（※省略可） --> 
+                    <div class="swiper-button-prev"></div> 
+                    <div class="swiper-button-next"></div>
+                    <!-- スクロールバー（※省略可） --> 
+                    <div class="swiper-scrollbar"></div> 
                 </div>
+                <script src="https://unpkg.com/swiper/js/swiper.min.js"></script> 
+                
+                <script>
+                 var mySwiper = new Swiper('.swiper-container', {
+                    autoplay: {
+                        delay: 3000,
+                        stopOnLastSlide: false,
+                        disableOnInteraction: false,
+                        reverseDirection: false
+                    },
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev'
+                    },
+                    pagination: {
+                        el: '.swiper-pagination',
+                        type: 'bullets',
+                        clickable: true
+                    }
+                });
+                    </script> 
+                
                 <img class="img-fluid rounded" src="https://picsum.photos/800/600">
             </main>
             <footer id="commonFooter"></footer>
