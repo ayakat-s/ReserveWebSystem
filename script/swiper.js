@@ -1,5 +1,5 @@
 var mySwiper = new Swiper('.swiper-container', {
-    effect: 'fade',
+    effect: 'slide',
     autoplay: {
         delay: 3000,
         stopOnLastSlide: false,
