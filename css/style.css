@@ -274,6 +274,9 @@ nav a:hover{
     margin: 30px 0;
   }
 
+.swiper-slide {
+    text-align: center;
+}
 .slide3 {
     text-align: center;
 }
