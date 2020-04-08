@@ -28,7 +28,7 @@
             <main class="main">
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="images/slide1.png" alt="Slide1"></div>
+                        <div class="swiper-slide"><img src="images/slide1.jpg" alt="Slide1"></div>
                         <div class="swiper-slide"><img src="images/slide2.png" alt="Slide2"></div>
                         <div class="swiper-slide"><img src="images/slide3.png" alt="Slide3"></div>
                     </div>
@@ -40,7 +40,6 @@
                 <script src="https://unpkg.com/swiper/js/swiper.min.js"></script> 
                 <script>
                     var mySwiper = new Swiper('.swiper-container', {
-                        effect: 'fade',
                         autoplay: {
                             delay: 3000,
                             stopOnLastSlide: false,
