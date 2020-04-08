@@ -46,21 +46,21 @@
     <body>
         <div class="container">
             <header id="commonHeader"></header>
-            <div class="swiper-container">
-                <!-- メイン表示部分 -->
-                <div class="swiper-wrapper">
-                    <!-- 各スライド -->
-                    <div class="swiper-slide">Slide 1</div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
-                    <div class="swiper-slide">Slide 4</div>
-                </div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-pagination"></div>
-            </div>
             <main class="main">
-                    <img class="img-fluid rounded" src="https://picsum.photos/800/600">
+                <div class="swiper-container">
+                    <!-- メイン表示部分 -->
+                    <div class="swiper-wrapper">
+                        <!-- 各スライド -->
+                        <div class="swiper-slide">Slide 1</div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                        <div class="swiper-slide">Slide 4</div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <img class="img-fluid rounded" src="https://picsum.photos/800/600">
             </main>
             <footer id="commonFooter"></footer>
         </div>
