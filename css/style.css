@@ -267,6 +267,12 @@ nav a:hover{
     background: #F6D490;
 }
 
+/* index.html*/
+.swiper-container {
+   /* max-width: 500px;*/
+    margin: 30px 0;
+}
+
 /* menu.html*/
 .menuItem {
     display: flex;

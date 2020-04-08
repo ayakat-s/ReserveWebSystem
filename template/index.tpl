@@ -27,43 +27,36 @@
             <header id="commonHeader"></header>
             <main class="main">
                 <div class="swiper-container">
-                    <!-- Sliderの内包コンテナ -->
                     <div class="swiper-wrapper">
-                        <!-- Slideさせたいコンテンツ -->
                         <div class="swiper-slide">Slide 1</div>
                         <div class="swiper-slide">Slide 2</div>
-                        <div class="swiper-slide">Slide 3</div>
+                        <div class="swiper-slide"><img src="images/slide3.png" alt="Slide3"></div>
                     </div>
-                    <!-- ページネーション（※省略可） -->
                     <div class="swiper-pagination"></div>
-                    <!-- ナビゲーションボタン（※省略可） --> 
                     <div class="swiper-button-prev"></div> 
                     <div class="swiper-button-next"></div>
-                    <!-- スクロールバー（※省略可） --> 
                     <div class="swiper-scrollbar"></div> 
                 </div>
                 <script src="https://unpkg.com/swiper/js/swiper.min.js"></script> 
-                
                 <script>
-                 var mySwiper = new Swiper('.swiper-container', {
-                    autoplay: {
-                        delay: 3000,
-                        stopOnLastSlide: false,
-                        disableOnInteraction: false,
-                        reverseDirection: false
-                    },
-                    navigation: {
-                        nextEl: '.swiper-button-next',
-                        prevEl: '.swiper-button-prev'
-                    },
-                    pagination: {
-                        el: '.swiper-pagination',
-                        type: 'bullets',
-                        clickable: true
-                    }
-                });
-                    </script> 
-                
+                    var mySwiper = new Swiper('.swiper-container', {
+                        autoplay: {
+                            delay: 3000,
+                            stopOnLastSlide: false,
+                            disableOnInteraction: false,
+                            reverseDirection: false
+                        },
+                        navigation: {
+                            nextEl: '.swiper-button-next',
+                            prevEl: '.swiper-button-prev'
+                        },
+                        pagination: {
+                            el: '.swiper-pagination',
+                            type: 'bullets',
+                            clickable: true
+                        }
+                    });
+                </script>   
                 <img class="img-fluid rounded" src="https://picsum.photos/800/600">
             </main>
             <footer id="commonFooter"></footer>
