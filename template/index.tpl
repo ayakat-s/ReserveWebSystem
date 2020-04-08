@@ -30,7 +30,7 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide"><a class="slide1"><img src="images/slide1.jpg" alt="Slide1"></a></div>
                         <div class="swiper-slide"><img src="images/slide2.png" alt="Slide2"></div>
-                        <div class="swiper-slide"><img src="images/slide3.png" alt="Slide3"></div>
+                        <div class="swiper-slide"><a class="slide3"><img src="images/slide3.png" alt="Slide3"></a></div>
                     </div>
                     <div class="swiper-pagination"></div>
                     <div class="swiper-button-prev"></div> 
@@ -40,7 +40,6 @@
                 <script src="https://unpkg.com/swiper/js/swiper.min.js"></script> 
                 <script>
                     var mySwiper = new Swiper('.swiper-container', {
-                        centeredSlides: true,
                         autoplay: {
                             delay: 5000,
                             stopOnLastSlide: false,
