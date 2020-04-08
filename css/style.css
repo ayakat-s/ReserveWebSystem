@@ -270,6 +270,7 @@ nav a:hover{
 /* index.html*/
 .swiper-container {
     max-width: 800px;
+    max-height: 400px;
     margin: 30px 0;
   }
 
