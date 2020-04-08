@@ -28,9 +28,9 @@
             <main class="main">
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide slide1">Slide 1</div>
-                        <div class="swiper-slide slide2">Slide 2</div>
-                        <div class="swiper-slide slide3">Slode 3</div>
+                        <div class="swiper-slide">Slide 1</div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide"><img src="images/slide3.png" alt="Slide3"></div>
                     </div>
                     <div class="swiper-pagination"></div>
                     <div class="swiper-button-prev"></div> 

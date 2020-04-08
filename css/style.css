@@ -269,34 +269,9 @@ nav a:hover{
 
 /* index.html*/
 .swiper-container {
-    max-width: 800px;
-    padding: 0 15px;
-}
-
-.slide1 {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url(../images/slide3.png);
-    font-size: 0em;
-}
-
-.slide2 {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url(../images/slide3.png);
-    font-size: 0em;
-}
-
-.slide3 {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: aqua;
-    font-size: 0em;
-}
-
+   max-width: 500px;
+    margin: 30px 0;
+  }
 
 /* menu.html*/
 .menuItem {
