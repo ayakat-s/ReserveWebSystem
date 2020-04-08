@@ -280,10 +280,8 @@ nav a:hover{
 }
 .swiper-slide img {
     max-width: 600px;
-    max-height: 380px;
-    margin-top: 10px;
-    margin-bottom: 10px;
- }
+    max-height: 400px;
+}
 
 /* menu.html*/
 .menuItem {
