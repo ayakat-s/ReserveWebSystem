@@ -19,6 +19,8 @@
                 $("#commonHeader").load("template/header.html");
                 $("#commonFooter").load("template/footer.html");
             });
+        </script>
+        <script>
             var mySwiper = new Swiper('.swiper-container', {
                 effect: 'fade',
                 autoplay: {
