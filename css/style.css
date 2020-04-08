@@ -277,9 +277,12 @@ nav a:hover{
 .swiper-slide {
     text-align: center;
 }
-.slide3 {
-    text-align: center;
-}
+ img {
+    max-width: 600px;
+    max-height: 380px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
 
 /* menu.html*/
 .menuItem {
