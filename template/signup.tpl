@@ -38,6 +38,15 @@
                         <label>パスワード<span class="badge badge-danger">必須</span></label>
                         <input id="password" type="password" name="password">
                         <a class="submit">確認画面へ</a>
+                        <script>
+                        var btn = document.getElementById('btn');
+                        
+                        btn.addEventListener('click', function() {
+                        
+                            window.confirm('クリックされました！');
+                        
+                        })
+                        </script>
                     </form>
                 </div>
                 <a href="index.php">戻る</a>
