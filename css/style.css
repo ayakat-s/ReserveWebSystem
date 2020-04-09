@@ -498,3 +498,19 @@ nav a:hover{
 #userSurname:focus, #userGivenname:focus {
     border: 2px solid rgba(0, 0, 0, 0.18) !important;
 }
+
+/* access.html*/
+.google-map {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+    
+.google-map iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
