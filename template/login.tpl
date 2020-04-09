@@ -26,7 +26,7 @@
             <main class="main">
                 <div class="loginForm">
                     <p class="sign">Login</p>
-                    <form action="login.php" method="post">
+                    <form action="userlogin.php" method="post">
                         <input id="userid" type="text" name="userid" placeholder="登録ID（メールアドレス）">
                         <input id="password" type="password" name="password" placeholder="パスワード">
                         <a class="submit">ログイン</a>
