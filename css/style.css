@@ -515,7 +515,8 @@ nav a:hover{
     width: 100%;
 }
 
-.storeinfo {
+.info {
     border-top: 1px solid #D1CAC8;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
