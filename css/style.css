@@ -500,19 +500,22 @@ nav a:hover{
 }
 
 /* access.html*/
-.google-map {
+.googleMap {
     height: 0;
     overflow: hidden;
     padding-bottom: 56.25%;
     position: relative;
-    border-bottom: 1px solid #D1CAC8;
 }
     
-.google-map iframe {
+.googleMap iframe {
     position: absolute;
     left: 0;
     top: 0;
     height: 100%;
     width: 100%;
-    margin-bottom: 20px;
+}
+
+.storeinfo {
+    border-bottom: 1px solid #D1CAC8;
+    margin-top: 20px;
 }
