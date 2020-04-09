@@ -501,6 +501,7 @@ nav a:hover{
 
 /* access.html*/
 .google-map {
+    grid-area: main;
     height: 0;
     overflow: hidden;
     padding-bottom: 56.25%;
