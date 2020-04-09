@@ -506,7 +506,6 @@ nav a:hover{
     padding-bottom: 56.25%;
     position: relative;
     border-bottom: 1px solid #D1CAC8;
-    padding: 20px 8px;
 }
     
 .google-map iframe {
@@ -515,4 +514,5 @@ nav a:hover{
     top: 0;
     height: 100%;
     width: 100%;
+    margin-bottom: 20px;
 }
