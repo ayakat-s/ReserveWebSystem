@@ -501,11 +501,11 @@ nav a:hover{
 
 /* access.html*/
 .google-map {
-    grid-area: main;
     height: 0;
     overflow: hidden;
     padding-bottom: 56.25%;
     position: relative;
+    border-bottom: 1px solid #D1CAC8;
 }
     
 .google-map iframe {
