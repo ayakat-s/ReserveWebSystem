@@ -26,20 +26,11 @@
             <!--メイン-->
             <main class="main">
                 <h2>ACCESS</h2>
+                <h3>東京メトロ銀座線・千代田線・半蔵門線　表参道駅　B1出口より　徒歩3分</h3>
                 <div class="googleMap">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.453054926704!2d139.7077233607722!3d35.66584491582935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4054b8b23563631c!2z6KGo5Y-C6YGT6aeF!5e0!3m2!1sja!2sjp!4v1586431940492!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
                 <div class="info">
-                    <dl>
-                        <dt>営業時間</dt>
-                        <dd>平日 10：00～21：00<br>
-                            土日祝 10：00～20：00<br>
-                        </dd>
-                    </dl>
-                    <dl>
-                        <dt>定休日</dt>
-                        <dd>毎週月曜日</dd>
-                    </dl>
                     <dl>
                         <dt>住所</dt>
                         <dd>
@@ -49,14 +40,14 @@
                         </dd>
                     </dl>
                     <dl>
-                        <dt>電話番号</dt>
-                        <dd>
-                            TEL：03-1234-5678
+                        <dt>営業時間</dt>
+                        <dd>平日 10：00～21：00<br>
+                            土日祝 10：00～20：00<br>
                         </dd>
                     </dl>
                     <dl>
-                        <dt>アクセス</dt>
-                        <dd>東京メトロ銀座線・千代田線・半蔵門線　表参道駅　B1出口 徒歩3分</dd>
+                        <dt>定休日</dt>
+                        <dd>毎週月曜日</dd>
                     </dl>
                 </div>
             </main>
