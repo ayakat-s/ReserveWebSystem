@@ -56,7 +56,8 @@
                             clickable: true
                         }
                     });
-                </script>   
+                </script>
+                <h2 id="about">ABOUT US</h2>
                 <img class="img-fluid rounded" src="https://picsum.photos/800/600">
             </main>
             <footer id="commonFooter"></footer>
