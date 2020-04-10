@@ -128,6 +128,28 @@ th {
     background: #FFF;/*背景色*/	
 }
 
+.submit {
+    cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background: linear-gradient(to right, #F2BC51, #F6D490);
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 35%;
+    font-size: 14px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.submit:hover {
+    cursor: pointer;
+    transform: translate3d(0, 3px, 0);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 3px 10px 0 rgba(0,0,0,0.12), 0 4px 7px -2px rgba(0,0,0,0.2);
+    background: #F6D490;
+}
+
 /* 個別のスタイル */
 /* header.html */
 .jumbotron-extend {
@@ -192,79 +214,57 @@ th {
     background: #F6D490;
 }
 
-p.right {
+.right {
     text-align: right;
 }
 
-p.right a {
+.right a {
     text-decoration: none;
     color: #766F60;
     margin: 1.2em;
 }
 
-p.right a:hover{
+.right a:hover{
     position:relative;
     top:1px;
     color:#F2BC51;
     border-bottom:1px solid #F2BC51;
 }
 
-nav{
+.nav{
     text-align: center;
 }
 
-nav ul{
+.nav ul{
     margin: 0 ;
     padding: 0 ;
 }
 
-nav li{
+.nav li{
     list-style: none;
     display: inline-block;
     width: 20%;
     min-width: 90px;
 }
 
-nav li:not(:last-child){
+.nav li:not(:last-child){
     border-right:2px solid #ddd;
 }
 
-nav a{
+.nav a{
     text-decoration: none;
     color: #766F60;
 }
 
-nav a.current{
+.nav a.current{
     color: #F6D490;
     border-bottom:2px solid #F6D490;
 }
-nav a:hover{
+.nav a:hover{
     position:relative;
     top:1px;
     color:#F2BC51;
     border-bottom:1px solid #F2BC51;
-}
-
-.submit {
-    cursor: pointer;
-    border-radius: 5em;
-    color: #fff;
-    background: linear-gradient(to right, #F2BC51, #F6D490);
-    border: 0;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin-left: 35%;
-    font-size: 14px;
-    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
-}
-
-.submit:hover {
-    cursor: pointer;
-    transform: translate3d(0, 3px, 0);
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 3px 10px 0 rgba(0,0,0,0.12), 0 4px 7px -2px rgba(0,0,0,0.2);
-    background: #F6D490;
 }
 
 span {
