@@ -266,7 +266,7 @@ nav a:hover{
 /* menu.html*/
 .menuItem {
     display: flex;
-    border-bottom: 1px double #D1CAC8;
+    border-bottom: 1px solid #D1CAC8;
     padding: 20px 8px;
 }
 .menuPhoto {
@@ -279,7 +279,7 @@ nav a:hover{
 }
 
 .manuTable tr {
-    border-bottom: 1px solid #D1CAC8;
+    border-bottom: 1px double #D1CAC8;
 }
 
 .manuTable td {
