@@ -298,10 +298,10 @@ span {
 }
 .menuPhoto {
     margin: 0 0 0 auto;
-    flex: 1 1 1;
+    flex: 1 1 auto;
 }
 .menuText {
-    flex: 0 0 auto;
+    flex: 0 0 336px;
 }
 
 .manuTable{
