@@ -247,7 +247,7 @@ nav a:hover{
     border-bottom:1px solid #F2BC51;
 }
 
-span {
+.jp {
     font-size: 13px;
 }
 
@@ -283,7 +283,7 @@ span {
 
 }
 
-/* contact.tpl, login.tpl, signup.tpl, resetPassword.tpl共通*/
+/* contact.tpl, login.tpl, signup.tpl, resetPassword.tpl共通 submit*/
 .submit {
     cursor: pointer;
     border-radius: 5em;
@@ -304,6 +304,11 @@ span {
     transform: translate3d(0, 3px, 0);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 3px 10px 0 rgba(0,0,0,0.12), 0 4px 7px -2px rgba(0,0,0,0.2);
     background: #F6D490;
+}
+
+/* contact.tpl,  signup.tpl, resetPassword.tpl共通 span*/
+.badge {
+    margin-left: 5px;
 }
 
 /* contact.tpl*/
