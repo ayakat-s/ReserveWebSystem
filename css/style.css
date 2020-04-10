@@ -286,7 +286,7 @@ span {
 /* contact.tpl, login.tpl, signup.tpl, resetPassword.tpl共通*/
 input[type="submit"] {
     text-align: center;
-    width: 100px;
+    width: 120px;
     cursor: pointer;
     border-radius: 5em;
     color: #fff;
