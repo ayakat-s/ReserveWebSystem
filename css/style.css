@@ -42,7 +42,7 @@ body {
     grid-area: footer;
     background-color: #F7F6F4;
     color: #766F60;
-    padding: 20px 0 20px 0;
+    padding: 20px 0 0 0;
 }
 
 h1 {
@@ -168,6 +168,7 @@ th {
 }
 
 .btnRight {
+    clear: both;
     width: 100%;
     text-align: right;
 	position: relative;
@@ -301,6 +302,10 @@ span {
 }
 .menuText {
     flex: 0 0 auto;
+}
+
+.manuTable{
+
 }
 
 /* contact.tpl*/

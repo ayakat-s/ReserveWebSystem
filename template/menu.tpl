@@ -60,7 +60,7 @@
                     </div>
                 </div>
                 <h2>施術料金</h2>
-                <table border="1">
+                <table class="manuTable" border="1">
                     <tr>
                         <th>施術メニュー</th>
                         <th>時間</th>
