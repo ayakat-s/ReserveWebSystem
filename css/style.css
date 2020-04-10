@@ -280,8 +280,7 @@ nav a:hover{
 
 .manuTable td {
     color: #766F60;
-    line-height: 1.6;
-    width: 200px, 80px, 120px;
+    padding:20px 50px 20px 50px;
     text-align: center;
 }
 
