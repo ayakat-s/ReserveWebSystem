@@ -285,17 +285,14 @@ span {
 
 /* contact.tpl, login.tpl, signup.tpl, resetPassword.tpl共通 submit*/
 input[type="submit"] {
+    text-align: center;
     width: 30%;
     cursor: pointer;
     border-radius: 5em;
     color: #fff;
     background: linear-gradient(to right, #F2BC51, #F6D490);
     border: 0;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin-left: 35%;
+    padding: 10px auto 10px auto;
     font-size: 14px;
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
 }
