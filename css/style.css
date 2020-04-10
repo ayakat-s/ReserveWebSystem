@@ -6,9 +6,10 @@
 }
 
 html {
-	font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ','Meiryo','ＭＳ Ｐゴシック',sans-serif;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
 }
 
+}
 body {
     margin: 0 0 0 0;
 	background-color: #FFF;
