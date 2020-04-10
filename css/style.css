@@ -231,36 +231,36 @@ th {
     border-bottom:1px solid #F2BC51;
 }
 
-.nav {
+nav {
     text-align: center;
 }
 
-.nav ul{
+nav ul{
     margin: 0 ;
     padding: 0 ;
 }
 
-.nav li{
+nav li{
     list-style: none;
     display: inline-block;
     width: 20%;
     min-width: 90px;
 }
 
-.nav li:not(:last-child){
+nav li:not(:last-child){
     border-right:2px solid #ddd;
 }
 
-.nav a{
+nav a{
     text-decoration: none;
     color: #766F60;
 }
 
-.nav a.current{
+nav a.current{
     color: #F6D490;
     border-bottom:2px solid #F6D490;
 }
-.nav a:hover{
+nav a:hover{
     position:relative;
     top:1px;
     color:#F2BC51;
