@@ -129,7 +129,7 @@ th {
     background: #FFF;/*背景色*/	
 }
 
-.submit {
+input[type="submit"] {
     cursor: pointer;
     border-radius: 5em;
     color: #fff;
@@ -144,7 +144,7 @@ th {
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
 }
 
-.submit:hover {
+input[type="submit"]:hover {
     cursor: pointer;
     transform: translate3d(0, 3px, 0);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 3px 10px 0 rgba(0,0,0,0.12), 0 4px 7px -2px rgba(0,0,0,0.2);
