@@ -7,7 +7,6 @@
 
 html {
     font-family: Verdana, Helvetica, Arial, sans-serif;
-    font-size: 16px;
 }
 
 }
@@ -243,10 +242,13 @@ nav a:hover{
     border-bottom:1px solid #F2BC51;
 }
 
+.en {
+    font-size: 17px;
+}
+
 .jp {
     font-size: 13px;
 }
-
 
 /* index.html*/
 .swiper-container {
