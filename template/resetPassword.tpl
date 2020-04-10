@@ -43,7 +43,7 @@
                 <a href="login.php">ログイン画面へ戻る</a>
             </main>
             <!--メインここまで-->
-            <footer id="commonFooter"></footer>
+            <!--<footer id="commonFooter"></footer>-->
         </div>
     </body>
 </html>

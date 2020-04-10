@@ -36,7 +36,7 @@
                 <a href="index.php">戻る</a>
             </main>
             <!--メインここまで-->
-            <footer id="commonFooter"></footer>
+            <!--<footer id="commonFooter"></footer>-->
         </div>
     </body>
 </html>
