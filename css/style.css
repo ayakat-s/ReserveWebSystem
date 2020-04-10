@@ -533,7 +533,7 @@ nav a:hover{
   }
   
   .map.icon:before {
-    background: #F2BC51;
+    /*background: #F2BC51;*/
     content: '';
     position: absolute;
     left: -6px;
@@ -547,7 +547,7 @@ nav a:hover{
   }
   
   .map.icon:after {
-    background: #F6D490;
+    /*background: #F6D490;*/
     content: '';
     position: absolute;
     left: 4px;
@@ -565,8 +565,7 @@ nav a:hover{
     font-size: 18px;
     color: #766F60;
 }
-  
-  
+
 .googleMap {
     height: 0;
     overflow: hidden;
