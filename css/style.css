@@ -520,30 +520,30 @@ nav a:hover{
 
 /* access.html*/
 .pin.icon {
-    color: #000;
+    color:#766F60;
     background: #F2BC51;
     position: absolute;
-    margin-left: 4px;
-    margin-top: 2px;
+    margin-left: 6px;
+    margin-top: 4px;
     width: 18px;
     height: 18px;
     border: solid 1px currentColor;
-    border-radius: 7px 7px 7px 0;
-    -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg);
-}
+    border-radius: 3.5px 3.5px 3.5px 0;
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
   
-.pin.icon:before {
+  .pin.icon:before {
     background: #F6D490;
     content: '';
     position: absolute;
-    left: 3px;
-    top: 3px;
-    width: 6px;
-    height: 6px;
+    left: 6px;
+    top: 6px;
+    width: 8px;
+    height: 8px;
     border: solid 1px currentColor;
-    border-radius: 3px;
-}
+    border-radius: 1.5px;
+  }
 
 .h3 {
     padding: 0 .5em .5em 2em;
