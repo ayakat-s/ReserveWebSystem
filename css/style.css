@@ -129,28 +129,6 @@ th {
     background: #FFF;/*背景色*/	
 }
 
-input[type="submit"] {
-    cursor: pointer;
-    border-radius: 5em;
-    color: #fff;
-    background: linear-gradient(to right, #F2BC51, #F6D490);
-    border: 0;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin-left: 35%;
-    font-size: 14px;
-    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
-}
-
-input[type="submit"]:hover {
-    cursor: pointer;
-    transform: translate3d(0, 3px, 0);
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 3px 10px 0 rgba(0,0,0,0.12), 0 4px 7px -2px rgba(0,0,0,0.2);
-    background: #F6D490;
-}
-
 /* 個別のスタイル */
 /* header.html */
 .jumbotron-extend {
@@ -304,6 +282,31 @@ span {
 .manuTable{
 
 }
+
+/* contact.tpl, login.tpl, signup.tpl, resetPassword.tpl共通 submit*/
+input[type="submit"] {
+    width: 30%;
+    cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background: linear-gradient(to right, #F2BC51, #F6D490);
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 35%;
+    font-size: 14px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    transform: translate3d(0, 3px, 0);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 3px 10px 0 rgba(0,0,0,0.12), 0 4px 7px -2px rgba(0,0,0,0.2);
+    background: #F6D490;
+}
+
 
 /* contact.tpl*/
 .contactForm form {

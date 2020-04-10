@@ -37,7 +37,7 @@
                         </label>
                         <label>パスワード<span class="badge badge-danger">必須</span></label>
                         <input id="password" type="password" placeholder="パスワード">
-                        <a class="submit">送信する</a>
+                        <input type="submit" value="送信する">
                     </form>
                 </div>
                 <a href="login.php">ログイン画面へ戻る</a>
