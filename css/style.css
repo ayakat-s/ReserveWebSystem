@@ -274,10 +274,6 @@ nav a:hover{
     margin: 0 0 0 auto;
 }
 
-.manuTable {
-    text-align: center;
-}
-
 .manuTable tr {
     border-bottom: 2px double #D1CAC8;
 }
@@ -541,5 +537,13 @@ nav a:hover{
 .info {
     border-top: 1px solid #D1CAC8;
     margin-top: 40px;
-    margin-bottom: 40px;
+}
+
+.info dl {
+    color: #766F60;
+    margin: 40px 0 40px 0;
+}
+
+.info dd {
+    color: #766F60;
 }
