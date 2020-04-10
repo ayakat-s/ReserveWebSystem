@@ -35,7 +35,7 @@
                                 ※時間には歪みのチェック・カウンセリングも含みます。</p>
                         </div>
                         <div class="menuPhoto">
-                            <img src="images/decor-at-natural-spa.jpg" alt="menuphoto1">
+                            <img src="images/decor-at-natural-spa.jpg" width="300" height="225" alt="">
                         </div>
                     </div>
                     <div class="menuItem">
@@ -45,7 +45,7 @@
                                 ※時間には歪みのチェック・カウンセリングも含みます。</p>
                         </div>
                         <div class="menuPhoto">
-                            <img src="images/candles-glow-with-spa-decor.jpg" alt="">
+                            <img src="images/candles-glow-with-spa-decor.jpg" width="300" height="225" alt="">
                         </div>
                     </div>
                     <div class="menuItem">
@@ -55,7 +55,7 @@
                                 ※時間には歪みのチェック・カウンセリングも含みます。</p>
                         </div>
                         <div class="menuPhoto">
-                            <img src="images/a-woman-points-her-toes-while-stretching-her-legs-in-pool.jpg" alt="">
+                            <img src="images/a-woman-points-her-toes-while-stretching-her-legs-in-pool.jpg" width="300" height="225" alt="">
                         </div>
                     </div>
                 </div>
