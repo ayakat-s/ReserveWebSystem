@@ -296,15 +296,9 @@ span {
     border-bottom: 1px solid #D1CAC8;
     padding: 20px 8px;
 }
-
-.menuText {
-    flex: 0 0 336px;
-}
-
 .menuPhoto {
     text-align: right;
-    margin: 0 0 0 0;
-    flex: 1 1 auto;
+    margin: 0 0 0 auto;
 }
 
 .manuTable{
