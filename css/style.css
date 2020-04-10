@@ -266,12 +266,16 @@ nav a:hover{
 /* menu.html*/
 .menuItem {
     display: flex;
-    border-bottom: 1px solid #D1CAC8;
+    border-bottom: 1px double #D1CAC8;
     padding: 20px 8px;
 }
 .menuPhoto {
     text-align: right;
     margin: 0 0 0 auto;
+}
+
+.manuTable {
+    text-align: center;
 }
 
 .manuTable tr {
@@ -282,6 +286,10 @@ nav a:hover{
     color: #766F60;
     padding:20px 50px 20px 50px;
     text-align: center;
+}
+
+.red {
+    color:#B20000;
 }
 
 /* contact.tpl, login.tpl, signup.tpl, resetPassword.tpl共通 submit*/

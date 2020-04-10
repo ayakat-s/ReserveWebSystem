@@ -83,6 +83,7 @@
                         <td>5,500円</td>
                     </tr> 
                 </table>
+                <p><span class="red">※価格は全て税込み表示です</span></p>
             </main>
             <!--メインここまで-->
             <footer id="commonFooter"></footer>
