@@ -60,12 +60,7 @@
                     </div>
                 </div>
                 <h2>施術料金</h2>
-                <table class="manuTable" border="1">
-                    <tr>
-                        <th>施術メニュー</th>
-                        <th>時間</th>
-                        <th>基本料金</th>
-                    </tr>
+                <table class="manuTable">
                     <tr>
                         <td>全身姿勢矯正コース</td>
                         <td>60分</td>

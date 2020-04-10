@@ -124,11 +124,6 @@ table {
     text-align: center;
 }
 
-th {
-    color: #766F60;/*文字色*/
-    background: #FFF;/*背景色*/	
-}
-
 /* 個別のスタイル */
 /* header.html */
 .jumbotron-extend {
@@ -279,8 +274,15 @@ nav a:hover{
     margin: 0 0 0 auto;
 }
 
-.manuTable{
+.manuTable tr {
+    border-bottom: 1px solid #D1CAC8;
+}
 
+.manuTable td {
+    color: #766F60;
+    line-height: 1.6;
+    width: 200px, 80px, 120px;
+    text-align: center;
 }
 
 /* contact.tpl, login.tpl, signup.tpl, resetPassword.tpl共通 submit*/
