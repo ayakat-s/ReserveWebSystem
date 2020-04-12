@@ -30,11 +30,11 @@
                     <form action="confirm.php" method="post" name="form" onsubmit="return validate()">
                         <h3>お問い合わせ 内容入力</h3>
                         <p>お問い合わせ内容をご入力の上、「確認画面へ」ボタンをクリックしてください。</p>
-                            <label for="username">お名前<span class="badge badge-danger">必須</span></label>
-                            <input id="username" type="text" placeholder="例）山田花子">
+                            <label for="contactname">お名前<span class="badge badge-danger">必須</span></label>
+                            <input id="contactname" type="text" placeholder="例）山田花子">
                             <label for="email">メールアドレス<span class="badge badge-danger">必須</span></label>
-                            <input id="email" type="text" placeholder="例）guest@example.com">
-                            <label for="content">お問い合わせ内容<span class="badge badge-danger">必須</span></label>
+                            <input id="contactemail" type="text" placeholder="例）guest@example.com">
+                            <label for="contactemail">お問い合わせ内容<span class="badge badge-danger">必須</span></label>
                             <textarea name="content" rows="10" placeholder="　お問合せ内容を入力してください。"></textarea>
                         <input id="submit" type="submit" value="送信する">
                     </form>

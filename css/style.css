@@ -332,19 +332,19 @@ nav a:hover{
     margin-top: 1em;
 }
   
-/*.contactForm label {
+.contactForm label {
     display: inline-block;
     width: 200px;
     text-align: left;
     padding: 0.5em;
 }
   
-.contactForm input {
+#contactname, #contactemail {
     font: 1em;
     width: 500px;
     box-sizing: border-box;
     border: 1px solid #F2BC51;
-}*/
+}
 
 .contactForm textarea {
     font: 1em;
