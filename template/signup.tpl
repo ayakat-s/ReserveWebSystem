@@ -36,7 +36,7 @@
                         <input id="password"type="password" name="password" placeholder="パスワード">
                         <label for="passwordConf">パスワード確認<span class="badge badge-danger">必須</span></label>
                         <input id="passwordConf" type="password" name="passwordConf" placeholder="パスワード確認">
-                        <a class="submit">確認画面へ</a>
+                        <input type ="submit">確認画面へ</a>
                     </form>
                 </div>
                 <a href="index.php">戻る</a>
