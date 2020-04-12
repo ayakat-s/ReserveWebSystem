@@ -33,8 +33,8 @@
                         <label for="name">お名前<span class="badge badge-danger">必須</span></label><br>
                         <input id="username" type="text" placeholder="例）山田花子">
                         <label for="password">パスワード<span class="badge badge-danger">必須</span></label>
-                        <input id="password" type="password">
-                        <label for="passwordConf">パスワード<span class="badge badge-danger">必須</span></label>
+                        <input id="password" type="password" placeholder="パスワード">
+                        <label for="passwordConf">パスワード確認<span class="badge badge-danger" placeholder="パスワード確認">必須</span></label>
                         <input id="passwordConf" type="password">
                         <a class="submit">送信する</a>
                     </form>
