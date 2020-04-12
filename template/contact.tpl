@@ -42,7 +42,7 @@
                             <label>お問い合わせ内容<span class="badge badge-danger">必須</span></label>
                             <textarea name="content" rows="10" placeholder="　お問合せ内容を入力してください。"></textarea>
                         </div>
-                        <a class="submit">送信する</a>
+                        <input id="submit" type="submit" value="送信する">
                     </form>
                 </div>
                 <a href="index.php">戻る</a>
