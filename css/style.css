@@ -474,8 +474,8 @@ nav a:hover{
     display: inline-block;
 }
 
-#userSurname {
-    width: 30%;
+#email {
+    width: 76%;
     color: rgb(38, 50, 56);
     font-weight: 700;
     font-size: 14px;
@@ -488,8 +488,26 @@ nav a:hover{
     box-sizing: border-box;
     border: 2px solid rgba(0, 0, 0, 0.02);
     margin-bottom: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 46px;
+    text-align: center;
+    margin-bottom: 27px;
+}
+
+#username {
+    width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 50px;
+    margin-left: 46px;
     text-align: center;
     margin-bottom: 27px;
 }
@@ -498,8 +516,8 @@ nav a:hover{
     padding-top: 40px;
 }
 
-#userGivenname {
-    width: 30%;
+#passwordConf {
+    width: 76%;
     color: rgb(38, 50, 56);
     font-weight: 700;
     font-size: 14px;
@@ -512,12 +530,20 @@ nav a:hover{
     box-sizing: border-box;
     border: 2px solid rgba(0, 0, 0, 0.02);
     margin-bottom: 50px;
-    margin-left: 20px;
+    margin-left: 46px;
     text-align: center;
     margin-bottom: 27px;
 }
 
-#userSurname:focus, #userGivenname:focus {
+#email:focus {
+    border: 2px solid rgba(0, 0, 0, 0.18) !important;
+}
+
+#username:focus {
+    border: 2px solid rgba(0, 0, 0, 0.18) !important;
+}
+
+#passwordConf:focus {
     border: 2px solid rgba(0, 0, 0, 0.18) !important;
 }
 

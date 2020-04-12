@@ -27,16 +27,15 @@
             <main class="main">
                 <div class="commonForm">
                     <p class="sign">アカウント登録</p>
-                    <form action="signup.php" method="post">
-                        <label>登録ID（メールアドレス）<span class="badge badge-danger">必須</span></label>
-                        <input id="userid" type="text" name="userid" placeholder="　例）guest@example.com">
-                        <label>お名前<span class="badge badge-danger">必須</span></label><br>
-                        <label>
-                            姓<input id="userSurname" type="text" name="userSurname">
-                            名<input id="userGivenname" type="text" name="userGivenname">
-                        </label>
-                        <label>パスワード<span class="badge badge-danger">必須</span></label>
-                        <input id="password" type="password" name="password">
+                    <form action="register.php" method="post">
+                        <label for="email">メールアドレス<span class="badge badge-danger">必須</span></label>
+                        <input id="email" type="text" name="email" placeholder="例）guest@example.com">
+                        <label for="username">お名前<span class="badge badge-danger">必須</span></label><br>
+                        <input id="username" type="text" placeholder="例）山田花子">
+                        <label for="password">パスワード<span class="badge badge-danger">必須</span></label>
+                        <input id="password"type="password" name="password">
+                        <label for="passwordConf">パスワード確認<span class="badge badge-danger">必須</span></label>
+                        <input id="passwordConf" type="password" name="passwordConf">
                         <a class="submit">確認画面へ</a>
                     </form>
                 </div>
