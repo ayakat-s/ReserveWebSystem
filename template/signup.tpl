@@ -27,7 +27,7 @@
             <main class="main">
                 <div class="commonForm">
                     <p class="sign">アカウント登録</p>
-                    <form action="register.php" method="post">
+                    <form action="register2.php" method="post">
                         <label for="email">メールアドレス<span class="badge badge-danger">必須</span></label>
                         <input id="email" type="text" name="email" placeholder="例）guest@example.com">
                         <label for="username">お名前<span class="badge badge-danger">必須</span></label><br>
