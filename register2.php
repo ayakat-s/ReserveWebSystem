@@ -1,7 +1,4 @@
 <?php
-require 'smarty.php';
-$smarty = new customSmarty();
-$smarty->display("register2.php");
 
 $err = [];
 
@@ -44,5 +41,5 @@ if (count($err) === 0) {
     <?php endif ?> 
     <a href="index.php">戻る</a>
 </body>
-</html>//
+</html>
 
