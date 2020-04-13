@@ -1,4 +1,7 @@
 <?php
+session_start(); 
+
+require  'Smarty.php';
 
 $err = [];
 
