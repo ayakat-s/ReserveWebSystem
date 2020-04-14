@@ -1,7 +1,9 @@
 <?php
-session_start(); 
+require('vendor/smarty/libs/Smarty.class.php');
 
-require  'Smarty.php';
+$smarty = new Smarty;
+
+session_start(); 
 
 $err = [];
 

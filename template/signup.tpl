@@ -32,10 +32,10 @@
                         <input id="email" type="text" name="email" placeholder="例）guest@example.com">
                         <label for="username">お名前<span class="badge badge-danger">必須</span></label><br>
                         <input id="username" type="text" placeholder="例）山田花子">
-                        <label for="password">パスワード<span class="badge badge-danger">必須</span></label>
-                        <input id="password"type="password" name="password" placeholder="パスワード">
-                        <label for="passwordConf">パスワード確認<span class="badge badge-danger">必須</span></label>
-                        <input id="passwordConf" type="password" name="passwordConf" placeholder="パスワード確認">
+                        <label for="pass">パスワード<span class="badge badge-danger">必須</span></label>
+                        <input id="pass" type="password" name="pass" placeholder="パスワード">
+                        <label for="passConf">パスワード確認<span class="badge badge-danger">必須</span></label>
+                        <input id="passConf" type="password" name="passConf" placeholder="パスワード確認">
                         <input id="submit" type ="submit" value="登録">
                     </form>
                 </div>

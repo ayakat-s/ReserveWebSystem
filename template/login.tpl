@@ -27,8 +27,15 @@
                 <div class="loginForm">
                     <p class="sign">Login</p>
                     <form action="userlogin.php" method="post">
-                        <input id="userid" type="text" name="userid" placeholder="登録ID（メールアドレス）">
-                        <input id="password" type="password" name="password" placeholder="パスワード">
+                        <div>
+                            <input id="email" type="text" name="email" value="{$email}" placeholder="メールアドレス">
+                            {$mail_msg}
+                        </div>
+                        <div>
+                            <input id="pass" type="password" name="pass" value="" placeholder="パスワード">
+                            {$pass_msg}<br/>
+							{$message}
+                        </div>
                         <input id="submit" type="submit" value="ログイン">
                         <p class="forgot"><a href="resetPassword.php">パスワードをお忘れですか？</a></p>
                     </form>

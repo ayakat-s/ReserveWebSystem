@@ -386,7 +386,7 @@ nav a:hover{
     font-size: 23px;
 }
 
-#userid {
+#email {
     width: 76%;
     color: rgb(38, 50, 56);
     font-weight: 700;
@@ -409,7 +409,7 @@ nav a:hover{
     padding-top: 40px;
 }
 
-#password {
+#pass {
     width: 76%;
     color: rgb(38, 50, 56);
     font-weight: 700;
@@ -429,7 +429,7 @@ nav a:hover{
 }
 
 
-#userid:focus, #password:focus {
+#email:focus, #pass:focus {
     border: 2px solid rgba(0, 0, 0, 0.18) !important;
     
 }
@@ -474,25 +474,6 @@ nav a:hover{
     display: inline-block;
 }
 
-#email {
-    width: 76%;
-    color: rgb(38, 50, 56);
-    font-weight: 700;
-    font-size: 14px;
-    letter-spacing: 1px;
-    background: rgba(136, 126, 126, 0.04);
-    padding: 10px 20px;
-    border: none;
-    border-radius: 20px;
-    outline: none;
-    box-sizing: border-box;
-    border: 2px solid rgba(0, 0, 0, 0.02);
-    margin-bottom: 50px;
-    margin-left: 46px;
-    text-align: center;
-    margin-bottom: 27px;
-}
-
 #username {
     width: 76%;
     color: rgb(38, 50, 56);
@@ -516,7 +497,7 @@ nav a:hover{
     padding-top: 40px;
 }
 
-#passwordConf {
+#passConf {
     width: 76%;
     color: rgb(38, 50, 56);
     font-weight: 700;
@@ -535,15 +516,11 @@ nav a:hover{
     margin-bottom: 27px;
 }
 
-#email:focus {
-    border: 2px solid rgba(0, 0, 0, 0.18) !important;
-}
-
 #username:focus {
     border: 2px solid rgba(0, 0, 0, 0.18) !important;
 }
 
-#passwordConf:focus {
+#passConf:focus {
     border: 2px solid rgba(0, 0, 0, 0.18) !important;
 }
 
