@@ -28,11 +28,12 @@
                     <p class="sign">Login</p>
                     <form action="userlogin.php" method="post">
                         <div>
-                            <input id="email" type="text" name="email" value="{$email}" placeholder="メールアドレス">
+                            <input id="email" type="text" name="email" value="{$email}" placeholder="guest@example.com">
                             {$mail_msg}
                         </div>
                         <div>
-                            <input id="pass" type="password" name="pass" value="" placeholder="パスワード">
+                            <input id="pass" type="password" name="pass" value="" placeholder="password"><br>
+                            パスワードは6文字以上にしてください。<br>
                             {$pass_msg}<br/>
 							{$message}
                         </div>
