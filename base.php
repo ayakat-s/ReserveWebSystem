@@ -9,13 +9,17 @@ class base {
 	public $pass="";
 	public $passConf="";
 	public function  __construct(){
-		session_start();
+//		session_start();
 		$this->smarty = new Smarty();
 		$this->smarty->template_dir = './templates';
 		$this->smarty->compile_dir = './templates_c';
-//		$dsn = 'mysql:dbname=fileuploader;host=localhost;charset=utf8';
-//		$user = 'root';
-//		$password = '';
+		$host = DB_HOST;
+    	$db   = DB_NAME;
+		$user = DB_USER;
+		$pass = DB_PASS;
+
+		$dsn = 'mysql:host=$host; dbname=$db;charset=utf8mb8';
+
 		$this->pdo = new PDO($dsn,$user,$pass);//mediapro,mediapro
 		$this->pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 

@@ -1,6 +1,5 @@
 <?php
 
-session_start();
 require_once './base.php';
 $smarty    = new Smarty;
 
@@ -36,7 +35,7 @@ class Login extends base {
 
 			if (!$err) {
 				try {
-					$stmt = $this->pdo->prepare('SELECT email,password FROM member WHERE email=? AND password=? ');
+					$stmt = $this->pdo->prepare('SELECT email,password FROM users WHERE email=? AND password=? ');
 					$stmt->bindParam(1,$_POST['email'], PDO::PARAM_STR);
 					$stmt->bindParam(2,$_POST['pass'], PDO::PARAM_STR);
 					$this->pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -76,10 +75,10 @@ class Login extends base {
 		$this->smarty->assign('pass_msg', $pass_msg);
 		$this->smarty->assign('message', $message);
 		$this->smarty->assign('login','ログイン');
-		$this->smarty->display('login2.tpl');
+		$this->smarty->display('login.tpl');
 	}
 }
-new Login();
+new login();
 ?>
 
 
