@@ -26,15 +26,15 @@
             <main class="main">
                 <div class="loginForm">
                     <p class="sign">Login</p>
-                    <form action="userlogin.php" method="post">
+                    <form action="login2.php" method="post">
                         <div>
                             <input id="email" type="text" name="email" value="{$email}" placeholder="guest@example.com">
                             {$mail_msg}
                         </div>
                         <div>
                             <input id="pass" type="password" name="pass" value="" placeholder="password"><br>
-                            パスワードは6文字以上にしてください。<br>
-                            {$pass_msg}<br/>
+                            <p>パスワードは6文字以上にしてください。</p><br>
+                            {$pass_msg}<br>
 							{$message}
                         </div>
                         <input id="submit" type="submit" value="ログイン">

@@ -9,7 +9,7 @@ class Login extends base {
 		$email = '';
 		$mail_msg = '';
 		$pass_msg = '';
-//		$pass2_msg = '';
+		$pass2_msg = '';
 		$message = '';
 		if (isset($_POST["login"])) {
 	        // ログインボタンが押された場合
