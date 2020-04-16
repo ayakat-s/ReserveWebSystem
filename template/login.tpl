@@ -26,7 +26,7 @@
             <main class="main">
                 <div class="loginForm">
                     <p class="sign">Login</p>
-                    <form action="login3.php" method="post" id="login">
+                    <form action="login3.php" method="post">
                         <div>
                             <input id="email" type="text" name="email" value="{$email}" placeholder="guest@example.com">
                             <p>{$mail_msg}</p>
@@ -39,7 +39,7 @@
                         </div>
                         <P>{$errorMessagePASS}</P>
                         <P>{$errorMessageUSER}</P>
-                        <input id="submit" type="submit" value="ログイン">
+                        <input type="submit" id="login" name="login" value="ログイン">
                         <p class="forgot"><a href="resetPassword.php">パスワードをお忘れですか？</a></p>
                     </form>
                 </div>
