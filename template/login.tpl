@@ -26,7 +26,7 @@
             <main class="main">
                 <div class="loginForm">
                     <p class="sign">Login</p>
-                    <form action="login2.php" method="post" id="login">
+                    <form action="login3.php" method="post" id="login">
                         <div>
                             <input id="email" type="text" name="email" value="{$email}" placeholder="guest@example.com">
                             <p>{$mail_msg}</p>
