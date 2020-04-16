@@ -1,34 +1,36 @@
 <?php
-
+require 'smarty.php';
+$smarty = new customSmarty();
 session_start();
 
 $db = new PDO("mysql:host=otmaa16c1i9nwrek.cbetxkdyhwsb.us-east-1.rds.amazonaws.com; dbname=oib115zny150btge","uw951052y6bjf31x","plk0b8l7420qmd4b");
-$errorMessagePASS ="";
-$errorMessageUSER ="";
 
-if (isset($_POST['login'])) {                                                                               ②
-　　$u =htmlspecialchars($_POST['email'],ENT_QUOTES);
-　　$p =htmlspecialchars($_POST['password'],ENT_QUOTES);
-　　$ps=$db->query("SELECT password FROM users WHERE id='$u'");
-if ($ps->rowCount()>0)
-{ 　$r =$ps->fetch();
-if($r['password']===md5($p)){
-　　$_SESSION['us']= $u;
-　　header("Location: index.php");
-}else{
-session_destroy();
-　　$errorMessagePASS = 'パスワードが違います。';
-}
-}else{
-session_destroy();
-　　$errorMessageUSER ='ユーザーが登録されていません。';
-}
+if (isset($_POST["login"])) {
+    // ログインボタンが押された場合
+    $email = $_POST['email'];
+    $pass = $_POST['password'];
+    $err = false;
+
+    // 1. email の入力チェック
+    if (empty($email)) {  // emptyは値が空のとき
+        $mail_msg = 'メールアドレスを入力してください。';
+        $err = true;
+    } else if (mb_strlen($email) > 128) {
+        $mail_msg = 'メールアドレスは128文字以下で入力してください。';
+        $err = true;
+    }
+    if (empty($password)) {
+        $pass_msg = 'パスワードを入力してください。';
+        $err = true;
+    } else if (mb_strlen($password) < 6 || 12 < mb_strlen($password)) {
+        $pass_msg = 'パスワードは6文字以上12文字以内で設定してください。';
+        $err = true;
+    }
 }
 
-require( dirname( __FILE__ ).'/libs/Smarty.class.php' );
-$smarty = new Smarty();　
-$smarty->template_dir = dirname( __FILE__ ).'/templates';　
-$smarty->compile_dir = dirname( __FILE__ ).'/templates_c';
-$smarty->assign('errorMessagePASS', $errorMessagePASS);
-$smarty->assign('errorMessageUSER', $errorMessageUSER);
-$smarty->display('login.tpl');
+$this->smarty->assign('email', $email);
+$this->smarty->assign('mail_msg', $mail_msg);
+$this->smarty->assign('pass_msg', $pass_msg);
+$this->smarty->assign('message', $message);
+$this->smarty->assign('login','ログイン');
+$this->smarty->display('login.tpl');

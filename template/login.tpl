@@ -39,7 +39,7 @@
                         </div>
                         <P>{$errorMessagePASS}</P>
                         <P>{$errorMessageUSER}</P>
-                        <input type="submit" id="login" name="login" value="ログイン">
+                        <input id="login" type="submit" name="login" value="ログイン">
                         <p class="forgot"><a href="resetPassword.php">パスワードをお忘れですか？</a></p>
                     </form>
                 </div>

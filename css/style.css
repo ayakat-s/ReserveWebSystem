@@ -291,7 +291,7 @@ nav a:hover{
     color:#B20000;
 }
 
-/* contact.tpl, login.tpl, signup.tpl, resetPassword.tpl共通 submit*/
+/* contact.tpl, signup.tpl, resetPassword.tpl共通 submit*/
 #submit {
     cursor: pointer;
     border-radius: 5em;
@@ -428,35 +428,8 @@ nav a:hover{
     margin-bottom: 27px;
 }
 
-
 #email:focus, #password:focus {
-    border: 2px solid rgba(0, 0, 0, 0.18) !important;
-    
-}
-
-#login {
-    width: 76%;
-    color: rgb(38, 50, 56);
-    font-weight: 700;
-    font-size: 14px;
-    letter-spacing: 1px;
-    background: rgba(136, 126, 126, 0.04);
-    padding: 10px 20px;
-    border: none;
-    border-radius: 20px;
-    outline: none;
-    box-sizing: border-box;
-    border: 2px solid rgba(0, 0, 0, 0.02);
-    margin-bottom: 50px;
-    margin-left: 46px;
-    text-align: center;
-    margin-bottom: 27px;
-}
-
-
-#login:focus {
-    border: 2px solid rgba(0, 0, 0, 0.18) !important;
-    
+    border: 2px solid rgba(0, 0, 0, 0.18) !important;   
 }
 
 .forgot {
@@ -478,6 +451,28 @@ nav a:hover{
     top:1px;
     color: #F6D490;
     border-bottom:1px solid #F6D490;
+}
+
+#login {
+    cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background: linear-gradient(to right, #F2BC51, #F6D490);
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 35%;
+    font-size: 14px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+#login:hover {
+    cursor: pointer;
+    transform: translate3d(0, 3px, 0);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 3px 10px 0 rgba(0,0,0,0.12), 0 4px 7px -2px rgba(0,0,0,0.2);
+    background: #F6D490;
 }
 
 /*resetPassword.html, signup.html共通*/
