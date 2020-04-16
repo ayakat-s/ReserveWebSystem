@@ -26,10 +26,10 @@
             <main class="main">
                 <div class="loginForm">
                     <p class="sign">Login</p>
-                    <form action="dbconnect.php" method="post" id="login">
+                    <form action="login2.php" method="post" id="login">
                         <div>
                             <input id="email" type="text" name="email" value="{$email}" placeholder="guest@example.com">
-                            {$mail_msg}
+                            <p>{$mail_msg}</p>
                         </div>
                         <div>
                             <input id="password" type="password" name="password" value="" placeholder="password"><br>
@@ -37,6 +37,8 @@
                             {$pass_msg}<br>
 							{$message}
                         </div>
+                        <P>{$errorMessagePASS}</P>
+                        <P>{$errorMessageUSER}</P>
                         <input id="submit" type="submit" value="ログイン">
                         <p class="forgot"><a href="resetPassword.php">パスワードをお忘れですか？</a></p>
                     </form>
