@@ -553,3 +553,10 @@ nav a:hover{
 .info dd {
     color: #766F60;
 }
+
+/*エラー*/
+.err {
+    color: #ff3d00;
+    font-weight: bold;
+    font-size: 13px;
+}

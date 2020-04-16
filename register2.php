@@ -10,15 +10,15 @@ $err = [];
 if($username = filter_input(INPUT_POST, 'username')) {
     $err[] = 'ユーザ名を記入してください。';
 }
-if($username = filter_input(INPUT_POST, 'email')) {
+if($email = filter_input(INPUT_POST, 'email')) {
     $err[] = 'メールアドレスを記入してください。';
 }
-$password = filter_input(INPUT_POST, 'password');
+$pass = filter_input(INPUT_POST, 'pass');
 if (!preg_match("/\A[a-z\d]{8,20}+\z/i",$password)) {
     $err[] = 'パスワードは英数字8文字以上20文字以下にしてください。'
 }
-$passwordConf = filter_input(INPUT_POST, 'passwordConf');
-if ($password !== $passwordConf) {
+$passConf = filter_input(INPUT_POST, 'passConf');
+if ($pass !== $passConf) {
     $err[] = '確認用パスワードと異なっています。'
 }
 
