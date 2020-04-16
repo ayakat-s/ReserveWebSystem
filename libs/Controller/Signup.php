@@ -50,7 +50,7 @@ class Signup extends \MyApp\Controller {
       }
 
       // redirect to login
-      header('Location: ' . SITE_URL . '/login2.php');
+      header('Location: ' . SITE_URL . '../../login2.php');
       exit;
     }
   }
