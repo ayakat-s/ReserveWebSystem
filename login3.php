@@ -1,16 +1,8 @@
 <?php
-require_once './env.php';
-require 'smarty.php';
-$smarty = new customSmarty();
 
 session_start();
 
-$host = DB_HOST;
-$db   = DB_NAME;
-$user = DB_USER;
-$pass = DB_PASS;
-
-$db = new PDO("mysql:host=$host; dbname=$db","$user","$pass");
+$db = new PDO("mysql:host=otmaa16c1i9nwrek.cbetxkdyhwsb.us-east-1.rds.amazonaws.com; dbname=oib115zny150btge","uw951052y6bjf31x","plk0b8l7420qmd4b");
 $errorMessagePASS ="";
 $errorMessageUSER ="";
 
