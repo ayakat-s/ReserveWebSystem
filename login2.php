@@ -1,4 +1,6 @@
 <?php
+require 'smarty.php';
+$smarty = new customSmarty();
 // ログイン
 
 require_once(__DIR__ . './configs/config.php');
