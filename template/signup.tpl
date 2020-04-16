@@ -32,8 +32,8 @@
                         <input id="email" type="text" name="email" placeholder="例）guest@example.com">
                         <label for="username">お名前<span class="badge badge-danger">必須</span></label><br>
                         <input id="username" type="text" placeholder="例）山田花子">
-                        <label for="pass">パスワード<span class="badge badge-danger">必須</span></label>
-                        <input id="pass" type="password" name="pass" placeholder="password">
+                        <label for="password">パスワード<span class="badge badge-danger">必須</span></label>
+                        <input id="password" type="password" name="password" placeholder="password">
                         <label for="passConf">確認用パスワード<span class="badge badge-danger">必須</span></label>
                         <input id="passConf" type="password" name="passConf" placeholder="password">
                         <input id="submit" type ="submit" value="新規登録">

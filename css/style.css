@@ -409,7 +409,7 @@ nav a:hover{
     padding-top: 40px;
 }
 
-#pass {
+#password {
     width: 76%;
     color: rgb(38, 50, 56);
     font-weight: 700;
@@ -429,7 +429,7 @@ nav a:hover{
 }
 
 
-#email:focus, #pass:focus {
+#email:focus, #password:focus {
     border: 2px solid rgba(0, 0, 0, 0.18) !important;
     
 }

@@ -26,13 +26,13 @@
             <main class="main">
                 <div class="loginForm">
                     <p class="sign">Login</p>
-                    <form action="login2.php" method="post">
+                    <form action="dbconnect.php" method="post" id="login">
                         <div>
                             <input id="email" type="text" name="email" value="{$email}" placeholder="guest@example.com">
                             {$mail_msg}
                         </div>
                         <div>
-                            <input id="pass" type="password" name="pass" value="" placeholder="password"><br>
+                            <input id="password" type="password" name="password" value="" placeholder="password"><br>
                             <p>パスワードは6文字以上にしてください。</p><br>
                             {$pass_msg}<br>
 							{$message}
