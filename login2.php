@@ -51,7 +51,7 @@ if (filter_input(INPUT_SERVER, 'REQUEST_METHOD') === 'POST') {
             if (password_verify($password, $password_hash)) {
                 session_regenerate_id(true);
                 $_SESSION['login_user'] = $row;
-                header('Location:main.php');
+                header('Location:index.php');//main.php
                 return;
             }
         }
