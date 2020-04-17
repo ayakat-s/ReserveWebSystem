@@ -1,38 +1,60 @@
 <?php
-// ログイン
+require_once './vendor/smarty/smarty/libs/Smarty.class.php';
+$smarty = new Smarty();
 
-require_once(__DIR__ . './configs/config.php');
+ini_set('display_errors', true);
+error_reporting(E_ALL);
 
-$app = new MyApp\Controller\Login();
+session_start();
 
-$app->run();
+require 'database.php';
 
+// エラーを格納する変数
+$err = [];
 
-//$smarty->display('login2.tpl');
-// echo "login screen";
-// exit;
-?>
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="utf-8">
-  <title>Log In</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div id="container">
-    <form action="" method="post" id="login">
-      <p>
-        <input type="text" name="email" placeholder="email" value="<?= isset($app->getValues()->email) ? h($app->getValues()->email) : ''; ?>">
-      </p>
-      <p>
-        <input type="password" name="password" placeholder="password">
-      </p>
-      <p class="err"><?= h($app->getErrors('login')); ?></p>
-      <div class="btn" onclick="document.getElementById('login').submit();">Log In</div>
-      <p><a href="signup.php">Sign Up</a></p>
-      <input type="hidden" name="token" value="<?= h($_SESSION['token']); ?>">
-    </form>
-  </div>
-</body>
-</html>
+// 「ログイン」ボタンが押されて、POST通信のとき
+if (filter_input(INPUT_SERVER, 'REQUEST_METHOD') === 'POST') {
+    $email = filter_input(INPUT_POST, 'email');
+    $password = filter_input(INPUT_POST, 'password');
+
+    if ($email === '') {
+        $err['email'] = 'メールアドレスは入力必須です。';
+    }
+    if ($password === '') {
+        $err['password'] = 'パスワードは入力必須です。';
+    }
+
+    // エラーがないとき
+    if (count($err) === 0) {
+
+        // DB接続
+        $pdo = connect();
+
+        // ステートメント
+        $stmt = $pdo->prepare('SELECT * FROM users WHERE email = ?');
+
+        // パラメータ設定
+        $params = [];
+        $params[] = $email;
+
+        // SQL実行
+        $stmt->execute($params);
+
+        // レコードセットを取得
+        $rows = $stmt->fetchAll();
+
+        // パスワード検証
+        foreach ($rows as $row) {
+            $password_hash = $row['password'];
+
+            // パスワード一致
+            if (password_verify($password, $password_hash)) {
+                session_regenerate_id(true);
+                $_SESSION['login_user'] = $row;
+                header('Location:main.php');
+                return;
+            }
+        }
+        $err['login'] = 'ログインに失敗しました。';
+    }
+}
