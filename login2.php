@@ -53,12 +53,12 @@ if (filter_input(INPUT_SERVER, 'REQUEST_METHOD') === 'POST') {
             // パスワード一致
             if ($password === $dbpassword) {
                 session_regenerate_id(true);
-                $_SESSION['login_user'] = $row;
+                $_SESSION['login_user'] = $row['username'];
                 header('Location:index.php');//main.php
                 return;
             }
         }
         $err[] = 'ログインに失敗しました。';
     } $smarty->assign("errormsg",$err[0]);
-    $smarty->display("login.tpl");
+    $smarty->display("loginUser.tpl");
 }
