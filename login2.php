@@ -1,4 +1,7 @@
 <?php
+require 'smarty.php';
+$smarty = new customSmarty();
+
 //require_once './vendor/smarty/smarty/libs/Smarty.class.php';
 //$smarty = new Smarty();
 
@@ -18,10 +21,10 @@ if (filter_input(INPUT_SERVER, 'REQUEST_METHOD') === 'POST') {
     $password = filter_input(INPUT_POST, 'password');
 
     if ($email === '') {
-        $err['email'] = 'メールアドレスは入力必須です。';
+        $err[] = 'メールアドレスは入力必須です。';
     }
     if ($password === '') {
-        $err['password'] = 'パスワードは入力必須です。';
+        $err[] = 'パスワードは入力必須です。';
     }
 
     // エラーがないとき
@@ -55,6 +58,7 @@ if (filter_input(INPUT_SERVER, 'REQUEST_METHOD') === 'POST') {
                 return;
             }
         }
-        $err['login'] = 'ログインに失敗しました。';
-    }
+        $err[] = 'ログインに失敗しました。';
+    } $smarty->assign("errormsg",$err[0]);
+    $smarty->display("login.tpl");
 }

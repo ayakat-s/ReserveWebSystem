@@ -24,6 +24,7 @@
         <div class="container">
             <header id="commonHeader"></header>
             <main class="main">
+                <p>{$errormsg}</p>
                 <div class="loginForm">
                     <p class="sign">Login</p>
                     <form action="login2.php" method="post">
