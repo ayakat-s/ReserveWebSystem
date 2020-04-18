@@ -15,4 +15,10 @@ class customSmarty
   {
     $this->smartyObj->display($templateName);
   }
+
+  public function assign($key,$value)
+  {
+    $this->smartyObj->assign($key,$value);
+  }
+
 }
