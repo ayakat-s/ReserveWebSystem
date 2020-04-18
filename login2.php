@@ -60,5 +60,5 @@ if (filter_input(INPUT_SERVER, 'REQUEST_METHOD') === 'POST') {
         }
         $err[] = 'ログインに失敗しました。';
     } $smarty->assign("errormsg",$err[0]);
-    $smarty->display("loginUser.tpl");
+    $smarty->display("login.tpl");
 }
