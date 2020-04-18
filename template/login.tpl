@@ -29,14 +29,11 @@
                     <p class="sign">Login</p>
                     <form action="login2.php" method="post">
                         <div>
-                            <input id="email" type="text" name="email" value="{$email}" placeholder="guest@example.com">
-                            <p>{$mail_msg}</p>
+                            <input id="email" type="text" name="email" value="" placeholder="guest@example.com">
                         </div>
                         <div>
                             <input id="password" type="password" name="password" value="" placeholder="password"><br>
-                            <p>パスワードは6文字以上にしてください。</p><br>
-                            {$pass_msg}<br>
-							{$message}
+                            <p>パスワードは6文字以上にしてください。</p>
                         </div>
                         <input id="login" type="submit" name="login" value="ログイン">
                         <p class="forgot"><a href="resetPassword.php">パスワードをお忘れですか？</a></p>
