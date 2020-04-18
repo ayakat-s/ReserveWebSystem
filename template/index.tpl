@@ -32,6 +32,7 @@
         <link rel="stylesheet" href="../css/style.css">
     </head>
     <body>
+        <p>{$username}</p>
         <div class="container">
             <header id="commonHeader"></header>
             <main class="main">
