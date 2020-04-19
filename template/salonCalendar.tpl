@@ -32,6 +32,45 @@
                             <li class="nav-item"><a href="staffSchedule.php" class="nav-link">スタッフ別の空き状況</a></li>
                         </ul>
                     </div>
+                    <table>
+                        <caption>
+                            <a href="/weekly/{$last_day}">＜</a>
+                            <a href="/weekly/{$today}">{$today|date_format:'%Y/%m'}</a>
+                            <a href="/weekly/{$next_day}">＞</a>
+                        </caption>
+                        <thead>
+                            <tr>
+                                <th>月</th>
+                                <th>火</th>
+                                <th>水</th>
+                                <th>木</th>
+                                <th>金</th>
+                                <th>土</th>
+                                <th>日</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                {foreach $calendar as $calendarKey => $calendarVal}
+                                <td class="{$calendarVal[1]}{if $today == $calendarVal[0]} today{/if}"><a href="/weekly/{$calendarVal[0]}">{$calendarVal[0]|date_format:'%e'}</a></td>
+                                {/foreach}
+                            </tr>
+                        </tbody>
+                     <!--   <tbody>
+                        <tr>
+                            <td>10:00~11:00</td>
+                            <td>11:00~12:00</td>
+                            <td>12:00~13:00</td>
+                            <td>13:00~14:00</td>
+                            <td>14:00~15:00</td>
+                            <td>15:00~16:00</td>
+                            <td>16:00~17:00</td>
+                            <td>17:00~18:00</td>
+                            <td>19:00~20:00</td>
+                            <td>20:00~21:00</td>
+                        </tr>
+                        </tbody> -->
+                    </table>
             </main>
             <!--メインここまで-->
             <footer id="commonFooter"></footer>
