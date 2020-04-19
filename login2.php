@@ -2,9 +2,6 @@
 require 'smarty.php';
 $smarty = new customSmarty();
 
-//require_once './vendor/smarty/smarty/libs/Smarty.class.php';
-//$smarty = new Smarty();
-
 ini_set('display_errors', true);
 error_reporting(E_ALL);
 

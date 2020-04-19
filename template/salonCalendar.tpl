@@ -28,7 +28,7 @@
                 <h3>ご希望の来店日時を選択してください</h3>
                     <div class="container mt-5">
                         <ul class="nav nav-tabs">
-                            <li class="nav-item"><a href="reserve.php" class="nav-link active">サロンの空き状況</a></li>
+                            <li class="nav-item"><a href="salonCalendar.php" class="nav-link active">サロンの空き状況</a></li>
                             <li class="nav-item"><a href="staffSchedule.php" class="nav-link">スタッフ別の空き状況</a></li>
                         </ul>
                     </div>

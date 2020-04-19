@@ -1,6 +1,6 @@
 <?php
-require_once './vendor/smarty/smarty/libs/Smarty.class.php';
-$smarty = new Smarty();
+require 'smarty.php';
+$smarty = new customSmarty();
 session_start();
 
 require 'database.php';
