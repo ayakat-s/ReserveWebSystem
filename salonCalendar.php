@@ -1,7 +1,7 @@
 <?php
 require 'smarty.php';
 $smarty = new customSmarty();
-$smarty->display("salonCalendar.tpl");
+
 
 /**
  * 
@@ -68,3 +68,4 @@ function getCalendarWeekly($year, $month, $day)
 
     return array($calendar, $today, $last_day, $next_day);
 }
+$smarty->display("salonCalendar.tpl");

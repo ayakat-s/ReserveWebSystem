@@ -32,30 +32,24 @@
                             <li class="nav-item"><a href="staffSchedule.php" class="nav-link">スタッフ別の空き状況</a></li>
                         </ul>
                     </div>
-                    <table>
-                        <caption>
-                            <a href="/weekly/{$last_day}">＜</a>
-                            <a href="/weekly/{$today}">{$today|date_format:'%Y/%m'}</a>
-                            <a href="/weekly/{$next_day}">＞</a>
-                        </caption>
+                    <table class="calendar">
                         <thead>
                             <tr>
-                                <th>月</th>
-                                <th>火</th>
-                                <th>水</th>
-                                <th>木</th>
-                                <th>金</th>
-                                <th>土</th>
-                                <th>日</th>
-                            </tr>
+                                <th colspan="2"><a href="/weekly/{$last_day}">&laquo; 前週</a></th>
+                                <th colspan="3">{$year}年{$month}月
+                                <th colspan="2"><a href="/weekly/{$next_day}">次週 &raquo;</a></th>
+                                </tr>
+                                <tr>
+                                <td>日</td>
+                                <td>月</td>
+                                <td>火</td>
+                                <td>水</td>
+                                <td>木</td>
+                                <td>金</td>
+                                <td>土</td>
+                                </tr>
+                                <tr>
                         </thead>
-                        <tbody>
-                            <tr>
-                                {foreach $calendar as $calendarKey => $calendarVal}
-                                <td class="{$calendarVal[1]}{if $today == $calendarVal[0]} today{/if}"><a href="/weekly/{$calendarVal[0]}">{$calendarVal[0]|date_format:'%e'}</a></td>
-                                {/foreach}
-                            </tr>
-                        </tbody>
                      <!--   <tbody>
                         <tr>
                             <td>10:00~11:00</td>
