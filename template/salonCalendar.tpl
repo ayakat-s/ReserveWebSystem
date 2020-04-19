@@ -49,6 +49,10 @@
                                 <td>土</td>
                             </tr>
                             <tr>
+                                {foreach $calendar as $calendarKey => $calendarVal}
+                                <td class="{$calendarVal[1]}{if $today == $calendarVal[0]} today{/if}"><a href="/weekly/{$calendarVal[0]}">{$calendarVal[0]|date_format:'%e'}</a></td>
+                                {/foreach}
+                                </tr>
                         </thead>
                      <!--   <tbody>
                         <tr>
