@@ -2,29 +2,60 @@
 require 'smarty.php';
 $smarty = new customSmarty();
 
-//週を表示する
-$week = array(
-    '日',
-    '月',
-    '火',
-    '水',
-    '木',
-    '金',
-    '土',
-    );
-    $smarty->assign('week', $week);
-    $smarty->assign('today', date('d'));
-    
-    $today_week = date('w');
-    
-    //週の初めの日付を算出
-    $week_startDate = time() - $today_week * (24 * 60 * 60);
-
-    $this_week = array();
-    for( $n = 0; $n < 7; $n ++ ){
-    //今週の日付を配列に格納する 日曜日から土曜日の順
-    $this_week[$n] = date('d', $week_startDate + ($n * (24 * 60 * 60 )));
+function getCalendarWeekly($year, $month, $day)
+{
+    // 先月
+    $first_week = 8 - date('w', mktime(0, 0, 0, $month, 1, $year));
+    if ($first_week >= $day) {
+        $before_days = date('w', mktime(0, 0, 0, $month, 1, $year)) - 1;
+        for ($i = $before_days; $i > 0; $i--){
+            $calendar[] = array(date('Y-m-d', mktime(0, 0, 0, $month, 1 - $i, $year)), 'last_month');
+        }
     }
-    $smarty->assign('this_week', $this_week);
+
+    // 今月
+    $total = date('t', mktime(0, 0, 0, $month, 1, $year));
+
+    $this_week = date('w', mktime(0, 0, 0, $month, $day, $year));
     
+    if ($this_week == 0) {
+        $this_week = 7;
+    }    
+    
+    if ($day - $this_week + 1 > 1) {
+        $begin_day = $day - $this_week + 1;
+    } else {
+        $begin_day = 1;
+    }
+
+    if ($day + 7 - $this_week < $total) {
+        $end_day = $day + 7 - $this_week;
+    } else {
+        $end_day = $total;
+    }
+
+    for ($i = $begin_day; $i <= $end_day; $i++){
+        $calendar[] = array(sprintf('%s-%02d-%02d', $year, $month, $i), 'this_month');
+    }
+
+    // 来月
+    $last_week = $total + 1 - date('w', mktime(0, 0, 0, $month, $total, $year));
+    if ($last_week <= $day) {
+        $after_days = 8 - date('w', mktime(0, 0, 0, $month + 1, 1, $year));
+        for ($i = 0; $i < $after_days; $i++){
+            $calendar[] = array(date('Y-m-d', mktime(0, 0, 0, $month + 1, 1 + $i, $year)), 'next_month');
+        }
+    }
+
+    // 今日（指定日）
+    $today = sprintf('%s-%02d-%02d', $year, $month, $day);
+
+    // 先週の同じ曜日
+    $last_day = date('Y-m-d', mktime(0, 0, 0, $month, $day - 7, $year));
+
+    // 来週の同じ曜日
+    $next_day = date('Y-m-d', mktime(0, 0, 0, $month, $day + 7, $year));
+
+    return array($calendar, $today, $last_day, $next_day);
+}
     $smarty->display('salonCalendar.tpl');

@@ -35,13 +35,20 @@
                     <table class="calendar">
                         <thead>
                             <tr>
-                                {foreach from=$week item=node}<th>{$node}</th>{/foreach}
-                                
-                                </tr>
-                                <tr>
-                                {foreach from=$this_week item=node}<td>{$node}</td>{/foreach}
-                                
-                                </tr>
+                                <th colspan="2"><a href="/weekly/{$last_day}">&laquo; 前週</a></th>
+                                <th colspan="3"><a href="/weekly/{$today}">{$today|date_format:'%Y/%m'}</a></th>
+                                <th colspan="2"><a href="/weekly/{$next_day}">次週 &raquo;</a></td>
+                            </tr>
+                            <tr>
+                                <td>日</td>
+                                <td>月</td>
+                                <td>火</td>
+                                <td>水</td>
+                                <td>木</td>
+                                <td>金</td>
+                                <td>土</td>
+                            </tr>
+                            <tr>
                         </thead>
                      <!--   <tbody>
                         <tr>
