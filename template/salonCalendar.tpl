@@ -35,9 +35,9 @@
                     <table class="calendar">
                         <thead>
                             <tr>
-                                <th colspan="2"><a href="/weekly/{$last_day}">&laquo; 前週</a></th>
-                                <th colspan="3"><a href="/weekly/{$today}">{$today|date_format:'%Y/%m'}</a></th>
-                                <th colspan="2"><a href="/weekly/{$next_day}">次週 &raquo;</a></td>
+                                <th colspan="2"><a href="/salonCalendar/{$last_day}">&laquo; 前週</a></th>
+                                <th colspan="3"><a href="/salonCalendar//{$today}">{$today|date_format:'%Y/%m'}</a></th>
+                                <th colspan="2"><a href="/salonCalendar//{$next_day}">次週 &raquo;</a></td>
                             </tr>
                             <tr>
                                 <td>日</td>
@@ -50,7 +50,7 @@
                             </tr>
                             <tr>
                                 {foreach $calendar as $calendarKey => $calendarVal}
-                                <td class="{$calendarVal[1]}{if $today == $calendarVal[0]} today{/if}"><a href="/weekly/{$calendarVal[0]}">{$calendarVal[0]|date_format:'%e'}</a></td>
+                                <td class="{$calendarVal[1]}{if $today == $calendarVal[0]} today{/if}"><a href="/salonCalendar//{$calendarVal[0]}">{$calendarVal[0]|date_format:'%e'}</a></td>
                                 {/foreach}
                                 </tr>
                         </thead>
