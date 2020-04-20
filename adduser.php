@@ -19,16 +19,19 @@ if (filter_input(INPUT_SERVER, 'REQUEST_METHOD') === 'POST') {
     $password = filter_input(INPUT_POST, 'password');
     $passwordConf = filter_input(INPUT_POST, 'passwordConf');
 
-    if ($emai === '') {
-        $err[] = 'メールアドレスは入力必須です。';
+    if ($email === '') {
+        $err[] = 'メールアドレスを入力してください。';
     }
     if ($username === '') {
-        $err[] = 'ユーザー名は入力必須です。';
+        $err[] = 'ユーザー名を入力してください。';
     }
     if ($password === '') {
-        $err[] = 'パスワードは入力必須です。';
+        $err[] = 'パスワードを入力してください。';
     }
-    if ($password !== $password_conf) {
+    if ($passwordConf === '') {
+        $err[] = '確認用パスワードを入力してください。';
+    }
+    if ($password !== $passwordConf) {
         $err[] = 'パスワードが一致しません。';
     }
 
