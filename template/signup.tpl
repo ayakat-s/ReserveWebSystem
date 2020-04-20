@@ -27,6 +27,7 @@
             <main class="main">
                 <div class="commonForm">
                     <p class="sign">会員登録</p>
+                    <p>{$errormsg}</p>
                     <form action="adduser.php" method="post">
                         <label for="email">メールアドレス<span class="badge badge-danger">必須</span></label>
                         <input id="email" type="text" name="email" placeholder="例）guest@example.com">
