@@ -29,7 +29,8 @@
                     <div class="container mt-5">
                         <ul class="nav nav-tabs">
                             <li class="nav-item"><a href="reserve.php" class="nav-link">サロンの空き状況</a></li>
-                            <li class="nav-item"><a href="staffSchedule.php" class="nav-link active">スタッフ別の空き状況</a></li>
+                            <li class="nav-item"><a href="staffCalendar
+                                .php" class="nav-link active">スタッフ別の空き状況</a></li>
                         </ul>
                     </div>
             </main>

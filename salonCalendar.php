@@ -58,4 +58,8 @@ function getCalendarWeekly($year, $month, $day)
 
     return array($calendar, $today, $last_day, $next_day);
 }
+    $smarty->assign('calendar', $calendar);
+    $smarty->assign('today', $today);
+    $smarty->assign('last_day', $last_day);
+    $smarty->assign('next_day', $next_day);
     $smarty->display('salonCalendar.tpl');
