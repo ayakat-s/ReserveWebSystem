@@ -1,6 +1,6 @@
 <?php
-require_once './vendor/smarty/smarty/libs/Smarty.class.php';
-$smarty = new Smarty();
+require 'smarty.php';
+$smarty = new customSmarty();
 
 ini_set('display_errors', true);
 error_reporting(E_ALL);
@@ -9,9 +9,10 @@ session_start();
 
 require 'database.php';
 
+// エラーを格納する変数
 $err = [];
 
-// 「ログイン」ボタンが押されて、POST通信のとき
+// 「新規登録」ボタンが押されて、POST通信のとき
 if (filter_input(INPUT_SERVER, 'REQUEST_METHOD') === 'POST') {
     $email = filter_input(INPUT_POST, 'email');
     $username = filter_input(INPUT_POST, 'username');
@@ -19,16 +20,16 @@ if (filter_input(INPUT_SERVER, 'REQUEST_METHOD') === 'POST') {
     $passwordConf = filter_input(INPUT_POST, 'passwordConf');
 
     if ($emai === '') {
-        $err['emai'] = 'メールアドレスは入力必須です。';
+        $err[] = 'メールアドレスは入力必須です。';
     }
     if ($username === '') {
-        $err['username'] = 'ユーザー名は入力必須です。';
+        $err[] = 'ユーザー名は入力必須です。';
     }
     if ($password === '') {
-        $err['password'] = 'パスワードは入力必須です。';
+        $err[] = 'パスワードは入力必須です。';
     }
     if ($password !== $password_conf) {
-        $err['passwordConf'] = 'パスワードが一致しません。';
+        $err[] = 'パスワードが一致しません。';
     }
 
     // エラーがないとき
@@ -38,7 +39,7 @@ if (filter_input(INPUT_SERVER, 'REQUEST_METHOD') === 'POST') {
         $pdo = connect();
 
         // ステートメント
-        $stmt = $pdo->prepare('INSERT INTO `User` (`id`, `email`, `username`, `password`) VALUES (null, ?, ?)');
+        $stmt = $pdo->prepare('INSERT INTO `users` (`email`, `username`, `password`) VALUES (null, ?, ?)');
 
         // パラメータ設定
         $params = [];
@@ -48,51 +49,7 @@ if (filter_input(INPUT_SERVER, 'REQUEST_METHOD') === 'POST') {
 
         // SQL実行
         $success = $stmt->execute($params);
+        echo "登録に成功しました。";
     }
+    $smarty->display("signup.tpl");
 }
-?>
-<!DOCTYPE HTML>
-<html lang="ja">
-    <head>
-        <meta charset="UTF-8">
-        <title></title>
-        <style type="text/css">
-            .error {
-                color: red;
-            }
-        </style>
-    </head>
-    <body>
-        <?php if (count($err) > 0) : ?>
-            <?php foreach ($err as $e): ?>
-                <p class="error"><?php echo h($e); ?></p>
-            <?php endforeach; ?>
-        <?php endif; ?>
-
-        <?php if (isset($success) && $success) : ?>
-            <p>登録に成功しました。</p>
-            <p><a href="index.php">こちらからログインしてください。</a></p>
-        <?php else: ?>
-            <form action="" method="post">
-                <p>
-                    <label for="user_name">ユーザー名</label>
-                    <input id="user_id" name="user_name" type="text" />
-                </p>
-                <p>
-                    <label for="">パスワード</label>
-                    <input id="password" name="password" type="password" />
-                </p>
-                <p>
-                    <label for="">確認用パスワード</label>
-                    <input id="password_conf" name="password_conf" type="password" />
-                </p>
-                <p>
-                    <button type="submit">ログイン</button>
-                </p>
-                <p>
-                    <a href="adduser.php">新規ユーザー登録</a>
-                </p>
-            </form>
-        <?php endif; ?>
-    </body>
-</html>

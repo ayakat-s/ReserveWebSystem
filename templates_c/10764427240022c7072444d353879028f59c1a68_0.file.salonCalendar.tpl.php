@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2020-04-19 12:44:50
+/* Smarty version 3.1.33, created on 2020-04-20 15:15:42
   from 'C:\Users\ayata\Desktop\seitai\template\salonCalendar.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5e9c2ba28ee4c2_14609898',
+  'unifunc' => 'content_5e9da07e8d7539_97173431',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '10764427240022c7072444d353879028f59c1a68' => 
     array (
       0 => 'C:\\Users\\ayata\\Desktop\\seitai\\template\\salonCalendar.tpl',
-      1 => 1587293088,
+      1 => 1587388390,
       2 => 'file',
     ),
   ),
@@ -20,8 +20,10 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5e9c2ba28ee4c2_14609898 (Smarty_Internal_Template $_smarty_tpl) {
-?><!DOCTYPE html>
+function content_5e9da07e8d7539_97173431 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\Users\\ayata\\Desktop\\seitai\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.date_format.php','function'=>'smarty_modifier_date_format',),));
+?>
+<!DOCTYPE html>
 <html lang="ja">
     <head>
         <!-- Required meta tags -->
@@ -66,28 +68,37 @@ function content_5e9c2ba28ee4c2_14609898 (Smarty_Internal_Template $_smarty_tpl)
                     <table class="calendar">
                         <thead>
                             <tr>
+                                <th colspan="2"><a href="https://reserve-web-service.herokuapp.com/salonCalendar.php?item_name=<?php echo $_smarty_tpl->tpl_vars['last_day']->value;?>
+">&laquo; 前週</a></th>
+                                <th colspan="3"><a href="https://reserve-web-service.herokuapp.com/salonCalendar.php?item_name=<?php echo $_smarty_tpl->tpl_vars['today']->value;?>
+"><?php echo smarty_modifier_date_format($_smarty_tpl->tpl_vars['today']->value,'%Y/%m');?>
+</a></th>
+                                <th colspan="2"><a href="https://reserve-web-service.herokuapp.com/salonCalendar.php?item_name=<?php echo $_smarty_tpl->tpl_vars['next_day']->value;?>
+">次週 &raquo;</a></td>
+                            </tr>
+                            <tr>
+                                <td>日</td>
+                                <td>月</td>
+                                <td>火</td>
+                                <td>水</td>
+                                <td>木</td>
+                                <td>金</td>
+                                <td>土</td>
+                            </tr>
+                            <tr>
                                 <?php
-$_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['week']->value, 'node');
+$_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['calendar']->value, 'calendarVal', false, 'calendarKey');
 if ($_from !== null) {
-foreach ($_from as $_smarty_tpl->tpl_vars['node']->value) {
-?><th><?php echo $_smarty_tpl->tpl_vars['node']->value;?>
-</th><?php
+foreach ($_from as $_smarty_tpl->tpl_vars['calendarKey']->value => $_smarty_tpl->tpl_vars['calendarVal']->value) {
+?>
+                                <td class="<?php echo $_smarty_tpl->tpl_vars['calendarVal']->value[1];
+if ($_smarty_tpl->tpl_vars['today']->value == $_smarty_tpl->tpl_vars['calendarVal']->value[0]) {?> today<?php }?>"><a href="https://reserve-web-service.herokuapp.com/salonCalendar.php?item_name=<?php echo $_smarty_tpl->tpl_vars['calendarVal']->value[0];?>
+"><?php echo smarty_modifier_date_format($_smarty_tpl->tpl_vars['calendarVal']->value[0],'%e');?>
+</a></td>
+                                <?php
 }
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
-                                
-                                </tr>
-                                <tr>
-                                <?php
-$_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['this_week']->value, 'node');
-if ($_from !== null) {
-foreach ($_from as $_smarty_tpl->tpl_vars['node']->value) {
-?><td><?php echo $_smarty_tpl->tpl_vars['node']->value;?>
-</td><?php
-}
-}
-$_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
-                                
                                 </tr>
                         </thead>
                      <!--   <tbody>
