@@ -53,6 +53,6 @@ if (filter_input(INPUT_SERVER, 'REQUEST_METHOD') === 'POST') {
         // SQL実行
         $success = $stmt->execute($params);
         echo "登録に成功しました。";
-    }
+    } $smarty->assign("errormsg",$err[0]);
     $smarty->display("signup.tpl");
 }
