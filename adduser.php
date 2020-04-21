@@ -42,13 +42,13 @@ if (filter_input(INPUT_SERVER, 'REQUEST_METHOD') === 'POST') {
         $pdo = connect();
 
         // ステートメント
-        $stmt = $pdo->prepare('INSERT INTO `users` (`email`, `username`, `password`) VALUES (null, ?, ?)');
+        $stmt = $pdo->prepare('INSERT INTO `users` (`email`, `username`, `password`) VALUES (?, ?, ?)');
 
         // パラメータ設定
         $params = [];
         $params[] = $email;
         $params[] = $username;
-        $params[] = password_hash($password, PASSWORD_DEFAULT);
+        $params[] = $password;
 
         // SQL実行
         $success = $stmt->execute($params);
