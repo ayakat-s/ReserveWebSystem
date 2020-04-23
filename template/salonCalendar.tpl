@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="ja">
     <head>
-        <!-- Required meta tags -->
+        <!-- Required meta tags 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
@@ -16,9 +16,8 @@
                 $("#commonHeader").load("template/header.html");
                 $("#commonFooter").load("template/footer.html");
             });
-        </script>
+        </script>-->
  
- <meta charset='utf-8' />
 <link href='../packages/core/main.css' rel='stylesheet' />
 <link href='../packages/daygrid/main.css' rel='stylesheet' />
 <link href='../packages/timegrid/main.css' rel='stylesheet' />
@@ -172,10 +171,10 @@
                             <td>19:00~20:00</td>
                             <td>20:00~21:00</td>
                         </tr>
-                        </tbody> -->
+                        </tbody> 
                     </table>
-            </main>
-            <!--メインここまで-->
+            </main> -->
+            <!--メインここまで--> 
             <footer id="commonFooter"></footer>
         </div>
     </body>
