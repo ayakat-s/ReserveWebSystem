@@ -33,13 +33,13 @@
             var calendarEl = document.getElementById('calendar');
 
             var calendar = new FullCalendar.Calendar(calendarEl, {
-            plugins: [ 'dayGrid', 'timeGrid', 'list', 'interaction' ],
+            plugins: [ 'timeGrid' ],
             header: {
                 left: 'prev,next today',
                 center: 'title',
                 right: 'timeGridWeek'
             },
-            defaultDate: '2020-02-12',
+            defaultDate: '2020-04-23',
             navLinks: true, // can click day/week names to navigate views
             editable: true,
             eventLimit: true, // allow "more" link when too many events
