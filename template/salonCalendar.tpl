@@ -17,13 +17,28 @@
                 $("#commonFooter").load("template/footer.html");
             });
         </script>
+    <link href='fullcalendar/core/main.css' rel='stylesheet' />
+    <link href='fullcalendar/daygrid/main.css' rel='stylesheet' />
+    <link href='fullcalendar/timegrid/main.css' rel='stylesheet' />
+    
+    <script src='fullcalendar/core/main.js'></script>
+    <script src='fullcalendar/daygrid/main.js'></script>
+    <script src='fullcalendar/timegrid/main.js'></script>
+    <script>
+ 
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+      plugins: [ 'timeGrid' ],
+      defaultView: 'timeGridWeek'
+    });
+
+    </script>
         <title>空き状況・ご予約｜整体サロン Natural</title>
         <link rel="stylesheet" href="../css/style.css">
     </head>
     <body>
         <div class="container">
             <header id="commonHeader"></header>
-            <!--メイン-->
+            <!--メイン
             <main class="main">
                 <h3>ご希望の来店日時を選択してください</h3>
                     <div class="container mt-5">
@@ -54,7 +69,7 @@
                                 {/foreach}
                                 </tr>
                         </thead>
-                     <!--   <tbody>
+                        <tbody>
                         <tr>
                             <td>10:00~11:00</td>
                             <td>11:00~12:00</td>
