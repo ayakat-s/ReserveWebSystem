@@ -18,15 +18,15 @@
             });
         </script>-->
  
-<link href='../packages/core/main.css' rel='stylesheet' />
-<link href='../packages/daygrid/main.css' rel='stylesheet' />
-<link href='../packages/timegrid/main.css' rel='stylesheet' />
-<link href='../packages/list/main.css' rel='stylesheet' />
-<script src='../packages/core/main.js'></script>
-<script src='../packages/interaction/main.js'></script>
-<script src='../packages/daygrid/main.js'></script>
-<script src='../packages/timegrid/main.js'></script>
-<script src='../packages/list/main.js'></script>
+<link href='../fullcalendar/packages/core/main.css' rel='stylesheet' />
+<link href='../fullcalendar/packages/daygrid/main.css' rel='stylesheet' />
+<link href='../fullcalendar/packages/timegrid/main.css' rel='stylesheet' />
+<link href='../fullcalendar/packages/list/main.css' rel='stylesheet' />
+<script src='../fullcalendar/packages/core/main.js'></script>
+<script src='../fullcalendar/packages/interaction/main.js'></script>
+<script src='../fullcalendar/packages/daygrid/main.js'></script>
+<script src='../fullcalendar/packages/timegrid/main.js'></script>
+<script src='../fullcalendar/packages/list/main.js'></script>
 <script>
 
   document.addEventListener('DOMContentLoaded', function() {
@@ -126,11 +126,12 @@
     <body>
         <div class="container">
             <header id="commonHeader"></header>
-            <div id='calendar'></div>
-            <!--メイン
+            
+            <!--メイン-->
             <main class="main">
                 <h3>ご希望の来店日時を選択してください</h3>
-                    <div class="container mt-5">
+                <div id='calendar'></div>
+                    <!--<div class="container mt-5">
                         <ul class="nav nav-tabs">
                             <li class="nav-item"><a href="salonCalendar.php" class="nav-link active">サロンの空き状況</a></li>
                             <li class="nav-item"><a href="staffSchedule.php" class="nav-link">スタッフ別の空き状況</a></li>
