@@ -37,6 +37,7 @@
             header: {
                 left: 'prev,next today',
                 center: 'title',
+                right: 'prev,next'
             },
             defaultDate: '2020-04-23',
             navLinks: true, // can click day/week names to navigate views
