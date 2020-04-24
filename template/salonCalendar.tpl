@@ -37,7 +37,7 @@
             header: {
                 left: 'prev,next today',
                 center: 'title',
-                right: 'timeGridWeek'
+                right: 'prev,nex'
             },
             defaultDate: '2020-04-23',
             navLinks: true, // can click day/week names to navigate views
@@ -103,6 +103,11 @@
                 groupId: 999,
                 title: '◎',
                 start: '2020-04-23T20:00:00',
+                }
+                {
+                //毎週月曜日
+                title: '定休日',
+                dow: [ 1 ]
                 }
             ]
             });
