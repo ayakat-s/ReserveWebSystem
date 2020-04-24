@@ -37,7 +37,7 @@
             header: {
                 left: 'prev,next today',
                 center: 'title',
-                right: 'prev,nex'
+                right: 'prev,next'
             },
             defaultDate: '2020-04-23',
             navLinks: true, // can click day/week names to navigate views
@@ -48,6 +48,7 @@
                 groupId: 999,
                 title: '◎',
                 start: '2020-04-23T09:00:00',
+                url: 'https://reserve-web-service.herokuapp.com/booking.php'
                 },
                 {
                 groupId: 999,
